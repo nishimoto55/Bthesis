@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  29 DEC 2021 03:00
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  6 JAN 2022 10:52
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -7,13 +7,27 @@ entering extended mode
 (./Bthetis.tex
 pLaTeX2e <2021-06-01>+2 (based on LaTeX2e <2021-11-15>)
 L3 programming layer <2021-11-22>
-(c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
-\c@@paper=\count182
-(c:/texlive/2021/texmf-dist/tex/platex/base/jsize10.clo
-File: jsize10.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
-)
-\c@part=\count183
+(c:/texlive/2021/texmf-dist/tex/platex/jsclasses/jsbook.cls
+Document Class: jsbook 2021/06/28 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen154
+\jsc@mmm=\dimen155
+\jsc@smallskipamount=\skip47
+LaTeX Info: Redefining \textmc on input line 502.
+LaTeX Info: Redefining \textgt on input line 504.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 566.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 760.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 760.
+\fullwidth=\dimen156
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 921.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 921.
+\c@part=\count182
+\c@chapter=\count183
 \c@section=\count184
 \c@subsection=\count185
 \c@subsubsection=\count186
@@ -21,14 +35,17 @@ File: jsize10.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
 \c@subparagraph=\count188
 \c@figure=\count189
 \c@table=\count190
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\symmincho=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 615.
-\toclineskip=\dimen154
-\@lnumwidth=\dimen155
-\bibindent=\dimen156
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\jsc@tocl@width=\dimen157
+\@lnumwidth=\dimen158
+\bibindent=\dimen159
+(c:/texlive/2021/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
+)
 \heisei=\count191
 )
 (c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
@@ -57,12 +74,12 @@ Package graphics Info: Driver file: dvipdfmx.def on input line 107.
 (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2021/03/18 v5.0j Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen157
-\Gin@req@width=\dimen158
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
 (c:/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen159
-\WF@size=\dimen160
+\wrapoverhang=\dimen162
+\WF@size=\dimen163
 \c@WF@wrappedlines=\count192
 \WF@box=\box67
 \WF@everypar=\toks20
@@ -70,7 +87,7 @@ Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -79,11 +96,11 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen161
+\ex@=\dimen164
 ))
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen162
+\pmbraise@=\dimen165
 )
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
@@ -100,7 +117,7 @@ LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box68
 \strutbox@=\box69
-\big@size=\dimen163
+\big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count198
@@ -113,55 +130,58 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \column@=\count269
 \maxfields@=\count270
 \andhelp@=\toks23
-\eqnshift@=\dimen164
-\alignsep@=\dimen165
-\tagshift@=\dimen166
-\tagwidth@=\dimen167
-\totwidth@=\dimen168
-\lineht@=\dimen169
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
 \@envbody=\toks24
-\multlinegap=\skip50
-\multlinetaggap=\skip51
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
 (c:/texlive/2021/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip52
-\cftbeforetoctitleskip=\skip53
-\cftaftertoctitleskip=\skip54
-\cftbeforepartskip=\skip55
-\cftpartnumwidth=\skip56
-\cftpartindent=\skip57
-\cftbeforesecskip=\skip58
-\cftsecindent=\skip59
-\cftsecnumwidth=\skip60
-\cftbeforesubsecskip=\skip61
-\cftsubsecindent=\skip62
-\cftsubsecnumwidth=\skip63
-\cftbeforesubsubsecskip=\skip64
-\cftsubsubsecindent=\skip65
-\cftsubsubsecnumwidth=\skip66
-\cftbeforeparaskip=\skip67
-\cftparaindent=\skip68
-\cftparanumwidth=\skip69
-\cftbeforesubparaskip=\skip70
-\cftsubparaindent=\skip71
-\cftsubparanumwidth=\skip72
-\cftbeforeloftitleskip=\skip73
-\cftafterloftitleskip=\skip74
-\cftbeforefigskip=\skip75
-\cftfigindent=\skip76
-\cftfignumwidth=\skip77
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip53
+\cftbeforetoctitleskip=\skip54
+\cftaftertoctitleskip=\skip55
+\cftbeforepartskip=\skip56
+\cftpartnumwidth=\skip57
+\cftpartindent=\skip58
+\cftbeforechapskip=\skip59
+\cftchapindent=\skip60
+\cftchapnumwidth=\skip61
+\cftbeforesecskip=\skip62
+\cftsecindent=\skip63
+\cftsecnumwidth=\skip64
+\cftbeforesubsecskip=\skip65
+\cftsubsecindent=\skip66
+\cftsubsecnumwidth=\skip67
+\cftbeforesubsubsecskip=\skip68
+\cftsubsubsecindent=\skip69
+\cftsubsubsecnumwidth=\skip70
+\cftbeforeparaskip=\skip71
+\cftparaindent=\skip72
+\cftparanumwidth=\skip73
+\cftbeforesubparaskip=\skip74
+\cftsubparaindent=\skip75
+\cftsubparanumwidth=\skip76
+\cftbeforeloftitleskip=\skip77
+\cftafterloftitleskip=\skip78
+\cftbeforefigskip=\skip79
+\cftfigindent=\skip80
+\cftfignumwidth=\skip81
 \c@lofdepth=\count271
 \c@lotdepth=\count272
-\cftbeforelottitleskip=\skip78
-\cftafterlottitleskip=\skip79
-\cftbeforetabskip=\skip80
-\cfttabindent=\skip81
-\cfttabnumwidth=\skip82
+\cftbeforelottitleskip=\skip82
+\cftafterlottitleskip=\skip83
+\cftbeforetabskip=\skip84
+\cfttabindent=\skip85
+\cfttabnumwidth=\skip86
 )
 (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -175,14 +195,14 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@cnth=\count273
 \Gm@cntv=\count274
 \c@Gm@tempcnt=\count275
-\Gm@bindingoffset=\dimen170
-\Gm@wd@mp=\dimen171
-\Gm@odd@mp=\dimen172
-\Gm@even@mp=\dimen173
-\Gm@layoutwidth=\dimen174
-\Gm@layoutheight=\dimen175
-\Gm@layouthoffset=\dimen176
-\Gm@layoutvoffset=\dimen177
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
 \Gm@dimlist=\toks26
 ))
 (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
@@ -195,11 +215,9 @@ File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
 \g__pdf_backend_link_int=\count278
 \g__pdf_backend_link_sf_int=\count279
 )
-
-LaTeX Warning: Unused global option(s):
-    [10.5pt].
-
-(./Bthetis.aux (./experimental_setup/experimental_setup.aux))
+(./Bthetis.aux (./intro/introduction.aux) (./theory/theory.aux)
+(./experimental_setup/experimental_setup.aux)
+(./methods_and_results/methods_and_results.aux))
 \openout1 = `Bthetis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -229,67 +247,163 @@ LaTeX Font Info:    ... okay on input line 10.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
-* v-part:(T,H,B)=(90.3375pt, 664.37186pt, 90.3375pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=416.83289pt
-* \textheight=664.37186pt
-* \oddsidemargin=18.0675pt
-* \evensidemargin=18.0675pt
-* \topmargin=-18.9325pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=7.77588pt
-* \footskip=30.0pt
-* \marginparwidth=60.0pt
-* \marginparsep=10.0pt
-* \columnsep=19.24432pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
+* h-part:(L,W,R)=(82.49913pt, 380.66895pt, 82.49913pt)
+* v-part:(T,H,B)=(82.49913pt, 606.73106pt, 82.49913pt)
+* \paperwidth=597.49146pt
+* \paperheight=845.04272pt
+* \textwidth=380.66895pt
+* \textheight=606.73106pt
+* \oddsidemargin=10.22914pt
+* \evensidemargin=10.22914pt
+* \topmargin=-22.999pt
+* \headheight=20.0pt
+* \headsep=13.22813pt
+* \topskip=12.76073pt
+* \footskip=25.98886pt
+* \marginparwidth=18.49374pt
+* \marginparsep=18.49374pt
+* \columnsep=18.49374pt
+* \skip\footins=16.0pt plus 5.0pt minus 2.0pt
+* \hoffset=6.27573pt
+* \voffset=6.27573pt
+* \mag=1095
 * \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 11.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 11.
 [1
+
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 14.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 14.
  (./Bthetis.toc
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 1.
+ [1]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 38.
 )
 \tf@toc=\write3
 \openout3 = `Bthetis.toc'.
 
- [1]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 20.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 20.
- [1
+ [2] [1
 
 ]
+\openout2 = `./intro/introduction.aux'.
+
+ (./intro/introduction.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 1.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 1.
+) [2
+
+]
+\openout2 = `./theory/theory.aux'.
+
+
+(./theory/theory.tex [3
+
+
+
+]
+File: ./theory/figure/PaulTrap_3Dto2D_3DTrap.png Graphic file (type bmp)
+<./theory/figure/PaulTrap_3Dto2D_3DTrap.png>
+File: ./theory/figure/PaulTrap_3Dto2D_2DTrap.png Graphic file (type bmp)
+<./theory/figure/PaulTrap_3Dto2D_2DTrap.png>
+File: ./theory/figure/named_electrode.png Graphic file (type bmp)
+<./theory/figure/named_electrode.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 48.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 48.
+File: ./theory/figure/Potential_of_rect-electrode.png Graphic file (type bmp)
+<./theory/figure/Potential_of_rect-electrode.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (52.17644pt too wide) detected at line 63
+[]
+ []
+
+File: ./theory/figure/named_rect_electrode.png Graphic file (type bmp)
+<./theory/figure/named_rect_electrode.png>
+[4
+
+]
+File: ./theory/figure/PlannarTrap_3D_z=0.png Graphic file (type bmp)
+<./theory/figure/PlannarTrap_3D_z=0.png>
+File: ./theory/figure/dc_potential_example.png Graphic file (type bmp)
+<./theory/figure/dc_potential_example.png>
+
+Overfull \hbox (34.25945pt too wide) in paragraph at lines 91--92
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]) [6]
 \openout2 = `./experimental_setup/experimental_setup.aux'.
 
  (./experimental_setup/experimental_setup.tex
+File: ./experimental_setup/figure/Using_PlannerTrap.png Graphic file (type bmp)
+
+<./experimental_setup/figure/Using_PlannerTrap.png>
 File: ./experimental_setup/figure/AllLaserXpos.jpg Graphic file (type bmp)
 <./experimental_setup/figure/AllLaserXpos.jpg>
 File: ./experimental_setup/figure/AllLaserYpos.jpg Graphic file (type bmp)
 <./experimental_setup/figure/AllLaserYpos.jpg>
 
-[2
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (12.18477pt too wide) in paragraph at lines 53--60
+ [][][][] 
+ []
+
+[7
+
+
+
+] [8]
 File: ./experimental_setup/figure/375GaussianFittingXpos.jpg Graphic file (type
  bmp)
 <./experimental_setup/figure/375GaussianFittingXpos.jpg>
@@ -314,26 +428,43 @@ File: ./experimental_setup/figure/866GaussianFittingXpos.jpg Graphic file (type
 File: ./experimental_setup/figure/866GaussianFittingYpos.jpg Graphic file (type
  bmp)
 <./experimental_setup/figure/866GaussianFittingYpos.jpg>
+) [9
 
+]
+\openout2 = `./methods_and_results/methods_and_results.aux'.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [3]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 65.
-
-[4
+ (./methods_and_results/methods_and_results.tex) [10
 
 
 
-] (./Bthetis.aux (./experimental_setup/experimental_setup.aux)) ) 
+] [11
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 43.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 43.
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 44.
+
+[12
+
+] (./Bthetis.aux (./intro/introduction.aux) (./theory/theory.aux)
+(./experimental_setup/experimental_setup.aux)
+(./methods_and_results/methods_and_results.aux)) ) 
 Here is how much of TeX's memory you used:
- 2680 strings out of 478816
- 44514 string characters out of 5863666
- 364915 words of memory out of 5000000
- 21023 multiletter control sequences out of 15000+600000
- 411800 words of font info for 61 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 60i,9n,65p,322b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 3066 strings out of 478816
+ 53151 string characters out of 5863666
+ 370771 words of memory out of 5000000
+ 21354 multiletter control sequences out of 15000+600000
+ 418405 words of font info for 96 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 60i,11n,65p,750b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Bthetis.dvi (6 pages, 17816 bytes).
+Output written on Bthetis.dvi (15 pages, 29828 bytes).

@@ -1,30 +1,38 @@
-\contentsline {section}{\numberline {1}序論}{1}{}%
-\contentsline {section}{\numberline {2}理論}{1}{}%
-\contentsline {subsection}{\numberline {2.1}イオントラップ}{1}{}%
-\contentsline {subsection}{\numberline {2.2}パウルトラップ}{1}{}%
-\contentsline {subsection}{\numberline {2.3}プレーナーイオントラップ}{1}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}電極の仕様}{1}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}Single-well}{1}{}%
-\contentsline {subsubsection}{\numberline {2.3.3}Double-well}{1}{}%
-\contentsline {subsection}{\numberline {2.4}レーザー冷却}{1}{}%
-\contentsline {subsection}{\numberline {2.5}イオンの運動}{1}{}%
-\contentsline {subsubsection}{\numberline {2.5.1}余剰マイクロ運動}{1}{}%
-\contentsline {subsection}{\numberline {2.6}画像処理によるイオン捕獲位置と電場の算出}{1}{}%
-\contentsline {subsubsection}{\numberline {2.6.1}グレースケール化，二値化}{1}{}%
-\contentsline {subsubsection}{\numberline {2.6.2}イオンの検出および，捕獲位置と電場の算出方法}{1}{}%
-\contentsline {section}{\numberline {3}実験のセットアップ}{2}{}%
-\contentsline {section}{\numberline {4}実験方法と結果}{4}{}%
-\contentsline {subsection}{\numberline {4.1}一列配列イオン}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}捕獲の手順}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}イオン捕獲位置のdc電圧依存性}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.3}永年周波数のdc電圧依存性}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.4}シミュレーションとの比較}{4}{}%
-\contentsline {subsection}{\numberline {4.2}二列配列イオン}{4}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}捕獲の手順}{4}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}比率Rとイオン列間距離の関係}{4}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}シミュレーションとの比較}{4}{}%
-\contentsline {subsection}{\numberline {4.3}余剰マイクロ運動の補正}{4}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}補正の手順}{4}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}補正結果}{4}{}%
-\contentsline {section}{\numberline {5}考察}{4}{}%
-\contentsline {section}{\numberline {6}結論と展望}{4}{}%
+\contentsline {section}{\numberline {0.1}序論}{2}{}%
+\contentsline {section}{\numberline {0.2}理論}{3}{}%
+\contentsline {subsection}{\numberline {0.2.1}イオントラップ}{3}{}%
+\contentsline {subsection}{\numberline {0.2.2}パウルトラップ}{3}{}%
+\contentsline {subsubsection}{rf擬ポテンシャル}{3}{}%
+\contentsline {subsubsection}{イオンの運動}{3}{}%
+\contentsline {subsubsection}{余剰マイクロ運動}{3}{}%
+\contentsline {subsection}{\numberline {0.2.3}プレーナートラップ}{4}{}%
+\contentsline {subsubsection}{電極の仕様}{4}{}%
+\contentsline {subsubsection}{矩形電極が作る静電ポテンシャル}{4}{}%
+\contentsline {subsection}{\numberline {0.2.4}Mathematicaによるシミュレーション}{5}{}%
+\contentsline {subsubsection}{DCポテンシャル}{5}{}%
+\contentsline {subsubsection}{Single-wellにおけるrf擬ポテンシャル}{6}{}%
+\contentsline {subsubsection}{Double-wellにおけるrf擬ポテンシャル}{6}{}%
+\contentsline {subsection}{\numberline {0.2.5}レーザー冷却}{6}{}%
+\contentsline {subsection}{\numberline {0.2.6}画像処理によるイオン捕獲位置と電場の算出}{6}{}%
+\contentsline {subsubsection}{グレースケール化，二値化}{6}{}%
+\contentsline {subsubsection}{イオンの検出および，捕獲位置と電場の算出方法}{6}{}%
+\contentsline {section}{\numberline {0.3}実験のセットアップ}{7}{}%
+\contentsline {subsection}{\numberline {0.3.1}使用するプレーナートラップ}{7}{}%
+\contentsline {subsection}{\numberline {0.3.2}使用するレーザーのビーム径と強度}{7}{}%
+\contentsline {section}{\numberline {0.4}実験方法と結果}{10}{}%
+\contentsline {subsection}{\numberline {0.4.1}Mathematicaによるシミュレーション結果}{10}{}%
+\contentsline {subsection}{\numberline {0.4.2}一列配列イオン}{10}{}%
+\contentsline {subsubsection}{捕獲の手順}{10}{}%
+\contentsline {subsubsection}{イオン捕獲位置のdc電圧依存性}{10}{}%
+\contentsline {subsubsection}{永年周波数のdc電圧依存性}{10}{}%
+\contentsline {subsubsection}{シミュレーションとの比較}{10}{}%
+\contentsline {subsection}{\numberline {0.4.3}二列配列イオン}{10}{}%
+\contentsline {subsubsection}{捕獲の手順}{10}{}%
+\contentsline {subsubsection}{比率Rとイオン列間距離の関係}{10}{}%
+\contentsline {subsubsection}{シミュレーションとの比較}{10}{}%
+\contentsline {subsection}{\numberline {0.4.4}余剰マイクロ運動の補正}{10}{}%
+\contentsline {subsubsection}{補正の手順}{10}{}%
+\contentsline {subsubsection}{補正結果}{10}{}%
+\contentsline {section}{\numberline {0.5}考察}{11}{}%
+\contentsline {section}{\numberline {0.6}結論と展望}{11}{}%
+\contentsline {chapter}{参考文献}{12}{}%
