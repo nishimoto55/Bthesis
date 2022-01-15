@@ -1,4 +1,4 @@
-\documentclass[a4j,11pt,titlepage,report]{jsbook}
+\documentclass[a4j,11pt,titlepage]{jsbook}
 \usepackage[utf8]{inputenc}
 
 \input{setting}
@@ -8,6 +8,7 @@
 \date{\today}
 
 \begin{document}
+\begin{comment}
 \maketitle
 \pagenumbering{roman}
 \setcounter{tocdepth}{3}
@@ -17,31 +18,34 @@
 \pagenumbering{arabic}
 
 %%%　---- 概論 ---- %%%
-\begin{abstract}
-	a
-\end{abstract}
+\chapter*{概要}
+	卒業論文
+\end{comment}
 
 %%%　---- 序論 ---- %%%
-\include{./intro/introduction}
+%\include{./intro/introduction}
 	
 %%%　---- 理論 ---- %%%
 \include{./theory/theory}
 
-%%%　---- 実験のセットアップ ---- %%%
-\include{./experimental_setup/experimental_setup.tex}
+%%%　---- 実験装置 ---- %%%
+%\include{./experimental_setup/experimental_setup.tex}
+
+%%%　---- シミュレーション結果 ---- %%%
+%\include{./simulation/simulation.tex}
 
 %%%　---- 実験方法と実験結果 ---- %%%
-\include{./methods_and_results/methods_and_results}
+%\include{./methods_and_results/methods_and_results}
 		
 %%%　---- 考察 ---- %%%
-\section{考察}
+%\section{考察}
 %%%　---- 結論と展望 ---- %%%
-\section{結論と展望}
+%\section{結論と展望}
 %%%　---- 謝辞 ---- %%%
-\section*{謝辞}
+%\section*{謝辞}
 %%%　---- 参考文献 ---- %%%
-\begin{thebibliography}{99}
-\end{thebibliography}
+%\begin{thebibliography}{99}
+%\end{thebibliography}
 
 
 %\input{section2/text_section2}

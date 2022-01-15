@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{tocloft}
 \usepackage{geometry}
+\usepackage{comment}
 
 % ページの余白を1.25インチにする
 \geometry{
@@ -61,14 +62,14 @@
 
 \makeatletter
  \renewcommand{\theequation}{%
-   \thesection.\arabic{equation}}
-  \@addtoreset{equation}{section}
+   \thechapter.\arabic{equation}}
+  \@addtoreset{equation}{chapter}
   
   \renewcommand{\thefigure}{
-  \thesection.\arabic{figure}}
-  \@addtoreset{figure}{section}
+  \thechapter.\arabic{figure}}
+  \@addtoreset{figure}{chapter}
   
   \renewcommand{\thetable}{
-    \thesection.\arabic{table}}
-  \@addtoreset{table}{section}
+    \thechapter.\arabic{table}}
+  \@addtoreset{table}{cahpter}
 \makeatother

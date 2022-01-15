@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  6 JAN 2022 10:52
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  15 JAN 2022 16:04
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -204,7 +204,11 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen179
 \Gm@layoutvoffset=\dimen180
 \Gm@dimlist=\toks26
-))
+)
+(c:/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment'))
 (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
 \l__pdf_internal_box=\box70
@@ -215,9 +219,7 @@ File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
 \g__pdf_backend_link_int=\count278
 \g__pdf_backend_link_sf_int=\count279
 )
-(./Bthetis.aux (./intro/introduction.aux) (./theory/theory.aux)
-(./experimental_setup/experimental_setup.aux)
-(./methods_and_results/methods_and_results.aux))
+(./Bthetis.aux (./theory/theory.aux))
 \openout1 = `Bthetis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -246,7 +248,7 @@ LaTeX Font Info:    ... okay on input line 10.
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(82.49913pt, 380.66895pt, 82.49913pt)
 * v-part:(T,H,B)=(82.49913pt, 606.73106pt, 82.49913pt)
 * \paperwidth=597.49146pt
@@ -255,12 +257,12 @@ LaTeX Font Info:    ... okay on input line 10.
 * \textheight=606.73106pt
 * \oddsidemargin=10.22914pt
 * \evensidemargin=10.22914pt
-* \topmargin=-22.999pt
+* \topmargin=-24.0817pt
 * \headheight=20.0pt
-* \headsep=13.22813pt
+* \headsep=14.31084pt
 * \topskip=12.76073pt
-* \footskip=25.98886pt
-* \marginparwidth=18.49374pt
+* \footskip=0.0pt
+* \marginparwidth=64.7281pt
 * \marginparsep=18.49374pt
 * \columnsep=18.49374pt
 * \skip\footins=16.0pt plus 5.0pt minus 2.0pt
@@ -268,203 +270,94 @@ LaTeX Font Info:    ... okay on input line 10.
 * \voffset=6.27573pt
 * \mag=1095
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 11.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 11.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 11.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 11.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 11.
-[1
-
-
-]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 14.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 14.
- (./Bthetis.toc
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 1.
- [1]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 38.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 38.
-)
-\tf@toc=\write3
-\openout3 = `Bthetis.toc'.
-
- [2] [1
-
-]
-\openout2 = `./intro/introduction.aux'.
-
- (./intro/introduction.tex
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
-) [2
-
-]
+Excluding 'comment' comment.
 \openout2 = `./theory/theory.aux'.
 
-
-(./theory/theory.tex [3
-
-
-
-]
-File: ./theory/figure/PaulTrap_3Dto2D_3DTrap.png Graphic file (type bmp)
-<./theory/figure/PaulTrap_3Dto2D_3DTrap.png>
-File: ./theory/figure/PaulTrap_3Dto2D_2DTrap.png Graphic file (type bmp)
-<./theory/figure/PaulTrap_3Dto2D_2DTrap.png>
-File: ./theory/figure/named_electrode.png Graphic file (type bmp)
-<./theory/figure/named_electrode.png>
+ (./theory/theory.tex
+第1章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 48.
+(Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 48.
-File: ./theory/figure/Potential_of_rect-electrode.png Graphic file (type bmp)
-<./theory/figure/Potential_of_rect-electrode.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (52.17644pt too wide) detected at line 63
-[]
- []
-
-File: ./theory/figure/named_rect_electrode.png Graphic file (type bmp)
-<./theory/figure/named_rect_electrode.png>
-[4
-
-]
-File: ./theory/figure/PlannarTrap_3D_z=0.png Graphic file (type bmp)
-<./theory/figure/PlannarTrap_3D_z=0.png>
-File: ./theory/figure/dc_potential_example.png Graphic file (type bmp)
-<./theory/figure/dc_potential_example.png>
-
-Overfull \hbox (34.25945pt too wide) in paragraph at lines 91--92
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]) [6]
-\openout2 = `./experimental_setup/experimental_setup.aux'.
-
- (./experimental_setup/experimental_setup.tex
-File: ./experimental_setup/figure/Using_PlannerTrap.png Graphic file (type bmp)
-
-<./experimental_setup/figure/Using_PlannerTrap.png>
-File: ./experimental_setup/figure/AllLaserXpos.jpg Graphic file (type bmp)
-<./experimental_setup/figure/AllLaserXpos.jpg>
-File: ./experimental_setup/figure/AllLaserYpos.jpg Graphic file (type bmp)
-<./experimental_setup/figure/AllLaserYpos.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (12.18477pt too wide) in paragraph at lines 53--60
- [][][][] 
- []
-
-[7
-
-
-
-] [8]
-File: ./experimental_setup/figure/375GaussianFittingXpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/375GaussianFittingXpos.jpg>
-File: ./experimental_setup/figure/375GaussianFittingYpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/375GaussianFittingYpos.jpg>
-File: ./experimental_setup/figure/397GaussianFittingXpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/397GaussianFittingXpos.jpg>
-File: ./experimental_setup/figure/397GaussianFittingYpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/397GaussianFittingYpos.jpg>
-File: ./experimental_setup/figure/423GaussianFittingXpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/423GaussianFittingXpos.jpg>
-File: ./experimental_setup/figure/423GaussianFittingYpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/423GaussianFittingYpos.jpg>
-File: ./experimental_setup/figure/866GaussianFittingXpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/866GaussianFittingXpos.jpg>
-File: ./experimental_setup/figure/866GaussianFittingYpos.jpg Graphic file (type
- bmp)
-<./experimental_setup/figure/866GaussianFittingYpos.jpg>
-) [9
-
-]
-\openout2 = `./methods_and_results/methods_and_results.aux'.
-
- (./methods_and_results/methods_and_results.tex) [10
-
-
-
-] [11
-
-
-]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 43.
+(Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 43.
+(Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 43.
+(Font)              scaled to size 19.9311pt on input line 1.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+Excluding 'comment' comment.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 70.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 70.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 70.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 70.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 72.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 72.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 72.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 72.
+File: ./theory/figure/5/image_0.jpg Graphic file (type bmp)
+<./theory/figure/5/image_0.jpg>
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 78.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 78.
+File: ./theory/figure/5/image_2.jpg Graphic file (type bmp)
+<./theory/figure/5/image_2.jpg>
+File: ./theory/figure/5/image_1.jpg Graphic file (type bmp)
+<./theory/figure/5/image_1.jpg>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 86.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 86.
+File: ./theory/figure/5/hist_0.jpg Graphic file (type bmp)
+<./theory/figure/5/hist_0.jpg>
+File: ./theory/figure/5/hist_2.jpg Graphic file (type bmp)
+<./theory/figure/5/hist_2.jpg>
+File: ./theory/figure/5/hist_1.jpg Graphic file (type bmp)
+<./theory/figure/5/hist_1.jpg>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 107.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 107.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 107.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 107.
+ [1
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 44.
 
-[12
-
-] (./Bthetis.aux (./intro/introduction.aux) (./theory/theory.aux)
-(./experimental_setup/experimental_setup.aux)
-(./methods_and_results/methods_and_results.aux)) ) 
+]
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 109.
+File: ./theory/figure/5/norm_hist_0.jpg Graphic file (type bmp)
+<./theory/figure/5/norm_hist_0.jpg>
+File: ./theory/figure/5/norm_hist_2.jpg Graphic file (type bmp)
+<./theory/figure/5/norm_hist_2.jpg>
+File: ./theory/figure/5/norm_hist_1.jpg Graphic file (type bmp)
+<./theory/figure/5/norm_hist_1.jpg>
+) [2] (./Bthetis.aux (./theory/theory.aux)) ) 
 Here is how much of TeX's memory you used:
- 3066 strings out of 478816
- 53151 string characters out of 5863666
- 370771 words of memory out of 5000000
- 21354 multiletter control sequences out of 15000+600000
- 418405 words of font info for 96 fonts, out of 8000000 for 9000
+ 2963 strings out of 478816
+ 46624 string characters out of 5863666
+ 362635 words of memory out of 5000000
+ 21291 multiletter control sequences out of 15000+600000
+ 416962 words of font info for 91 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 60i,11n,65p,750b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,65p,746b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Bthetis.dvi (15 pages, 29828 bytes).
+Output written on Bthetis.dvi (2 pages, 5544 bytes).
