@@ -1,0 +1,47 @@
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{comment}
+\usepackage{bm}
+
+% ページの余白を1.25インチにする
+\geometry{
+	left=1.25truein,
+	right=1.25truein,
+	top=1.25truein,
+	bottom=1.25truein,
+}
+
+%ページの上下に出力される図と図の間のスペース
+\setlength\floatsep{5.0pt} %dblfloatsep
+
+%ページの上下に出力される図と本文の間のスペース
+\setlength\textfloatsep{5.0pt} %dbltextfloatsep
+
+%ページの途中に出力される図と本文の間のスペース
+\setlength\intextsep{5.0pt}
+
+%図の参照
+\newcommand{\Fig}[1]{Fig.\ref{fig:#1}}
+%表の参照
+\newcommand{\Tb}[1]{Tab.\ref{tab:#1}}
+%式の参照
+\newcommand{\Eq}[1]{Eq.(\ref{eq:#1})}
+
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Table}
+
+\makeatletter
+ \renewcommand{\theequation}{%
+   \thechapter.\arabic{equation}}
+  \@addtoreset{equation}{chapter}
+  
+  \renewcommand{\thefigure}{
+  \thechapter.\arabic{figure}}
+  \@addtoreset{figure}{chapter}
+  
+  \renewcommand{\thetable}{
+    \thechapter.\arabic{table}}
+  \@addtoreset{table}{chapter}
+\makeatother

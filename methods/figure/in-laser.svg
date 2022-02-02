@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="in-laser.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:zoom="1.8116734"
+     inkscape:cx="373.13568"
+     inkscape:cy="241.76543"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker6919"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6917" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6540" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#cccccc;stroke:#000000;stroke-width:1;stroke-opacity:1;fill-opacity:1"
+       id="path848"
+       cx="91.28125"
+       cy="59.53125"
+       r="14.552083" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';stroke-width:0.264583"
+       x="57.029877"
+       y="41.194019"
+       id="text4064"><tspan
+         sodipodi:role="line"
+         id="tspan4062"
+         style="stroke-width:0.264583"
+         x="57.029877"
+         y="41.194019">chamber</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)"
+       d="M 100.54167,47.624999 113.77083,34.395833"
+       id="path6532" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker6919)"
+       d="M 91.281249,74.083332 V 87.312499"
+       id="path6915" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';stroke-width:0.264583"
+       x="95.842697"
+       y="87.44149"
+       id="text7941"><tspan
+         sodipodi:role="line"
+         id="tspan7939"
+         style="stroke-width:0.264583"
+         x="95.842697"
+         y="87.44149">垂直照射</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';stroke-width:0.264583"
+       x="116.25357"
+       y="36.019363"
+       id="text10651"><tspan
+         sodipodi:role="line"
+         id="tspan10649"
+         style="stroke-width:0.264583"
+         x="116.25357"
+         y="36.019363">斜め照射</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect11271"
+       width="111.125"
+       height="76.729164"
+       x="52.916664"
+       y="18.520834"
+       inkscape:export-filename="C:\Users\ni4mo\Documents\diplom_thesis\methods\figure\in_laser.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="path870"
+       cx="86.651039"
+       cy="59.53125"
+       r="1.984375" />
+    <circle
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="path870-8"
+       cx="91.942711"
+       cy="59.53125"
+       r="1.984375" />
+    <circle
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="path870-0"
+       cx="97.234375"
+       cy="59.53125"
+       r="1.984375" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';stroke-width:0.264583"
+       x="82.969818"
+       y="55.891876"
+       id="text3057"><tspan
+         sodipodi:role="line"
+         id="tspan3055"
+         style="stroke-width:0.264583"
+         x="82.969818"
+         y="55.891876">ions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';stroke-width:0.264583"
+       x="109.80208"
+       y="47.625"
+       id="text8143"><tspan
+         sodipodi:role="line"
+         id="tspan8141"
+         style="stroke-width:0.264583"
+         x="109.80208"
+         y="47.625">laser</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';stroke-width:0.264583"
+       x="68.309059"
+       y="91.202957"
+       id="text8143-2"><tspan
+         sodipodi:role="line"
+         id="tspan8141-7"
+         style="stroke-width:0.264583"
+         x="68.309059"
+         y="91.202957">laser</tspan></text>
+  </g>
+</svg>

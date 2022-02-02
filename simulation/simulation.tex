@@ -19,17 +19,21 @@
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width = 0.7\linewidth]{./simulation/figure/PlannarTrap_3D_z=0.png}
+		\caption{プレーナートラップ上におけるz-y平面(x=0)}
 	\end{center}
 \end{figure}
 \begin{figure}[h]
 	\begin{center}
 		\begin{minipage}{0.45\linewidth}
 			\begin{center}
-				\includegraphics[width = 1.2\columnwidth]{./simulation/figure/dc_potential_example.png}
+				\includegraphics[width = 0.9\columnwidth]{./simulation/figure/dc_potential_example.png}
+					\caption{z-y平面(x=0)での\Tb{dc_set1}の条件で計算したdcポテンシャル}
 			\end{center}
 		\end{minipage}
 		\begin{minipage}{0.45\linewidth}
 			\begin{center}
+				\caption{dc電圧セット ${\rm DC}_{1}$}
+				\label{tab:dc_set1}
 				\begin{tabular}{c|c} \hline \hline
 					電極　& 印加電圧 ()V) \\ \hline
 					End1 & 1.41 \\ \hline
@@ -46,15 +50,104 @@
 		\end{minipage}
 	\end{center}
 \end{figure}
+
+\clearpage
+
 \section{Single-wellにおけるrf擬ポテンシャル}
+Single-wellの条件でのrf擬ポテンシャルについての計算結果を示す．\Fig{single-well_example_xy}にx-y平面(z=0)のrf擬ポテンシャルの計算結果を示す．このとき$\Omega_{\rm rf} = 27.2 \ {\rm MHz}, V_{\rm rf} = 62 \ V,R = 0.27$とした．
 \begin{figure}[h]
+	\begin{center}
 	\includegraphics[width = 0.7\linewidth]{./simulation/figure/Single-well_Contour_xy@z=0.jpg}
-	\caption{single-well}
-	\label{fig:single-well_example}
+	\caption{x-y平面(x=0)でのSingle-wellにおけるrf擬ポテンシャル}
+	\label{fig:single-well_example_xy}
+	\end{center}
 \end{figure}
-\section{Double-wellにおけるrf擬ポテンシャル}
+また，\Fig{single-well_example_zx}にz-x平面のrf擬ポテンシャルの様子を示す．\Fig{single-well_example_xy}において計算したrf擬ポテンシャルの最小値を取るトラップ表面からの高さ$y = 188.556 \ {\rm \mu m}$を用いている．
 \begin{figure}[h]
-	\includegraphics[width = 0.7\linewidth]{./simulation/figure/Double-well_Contour_xy_R=100.jpg}
-	\caption{double-well}
-	\label{fig:double-well_example}
+	\begin{center}
+	\includegraphics[width = 0.7\linewidth]{./simulation/figure/single-well_zx.jpg}
+	\caption{z-x平面($y = 188.556 \ {\rm \mu m}$)でのSingle-wellにおけるrf擬ポテンシャル}
+	\label{fig:single-well_example_zx}
+	\end{center}
 \end{figure}
+
+\clearpage
+
+\section{Double-wellにおけるrf擬ポテンシャル}
+本実験で用いるプレーナートラップでは，rf電極に印加するrf電圧の振幅$V_{\rm rf}$とcenter-rf電極に印加するrf電圧の振幅$V_{\rm center-rf}$の比率
+\large
+\begin{align}
+R = \frac{V_{\rm center-rf}}{V_{\rm rf}}
+\end{align}
+\normalsize
+を制御することでイオンを二列に配列させることが可能になっている．
+
+\Fig{R075}$\sim$\Fig{R100}に異なるRの値に対するrf擬ポテンシャルの変化の様子を示す．
+\begin{figure}[h]
+	\begin{minipage}{0.48\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.9\columnwidth]{./simulation/figure/rf_pseudopotential_R=075.jpg}
+			\caption{$R=0.75$}
+			\label{fig:R075}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.48\linewidth}
+			\begin{center}
+				\includegraphics[width = 0.9\columnwidth]{./simulation/figure/rf_pseudopotential_R=080.jpg}
+				\caption{$R=0.80$}
+				\label{fig:R080}
+			\end{center}
+		\end{minipage}
+\end{figure}
+\begin{figure}[h]
+	\begin{minipage}{0.48\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.9\columnwidth]{./simulation/figure/rf_pseudopotential_R=090.jpg}
+			\caption{$R=0.90$}
+			\label{fig:R090}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.48\linewidth}
+			\begin{center}
+				\includegraphics[width = 0.9\columnwidth]{./simulation/figure/rf_pseudopotential_R=092.jpg}
+				\caption{$R=0.92$}
+				\label{fig:R092}
+			\end{center}
+		\end{minipage}
+\end{figure}
+\begin{figure}[h]
+	\begin{minipage}{0.48\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.9\columnwidth]{./simulation/figure/rf_pseudopotential_R=095.jpg}
+			\caption{R=0.95}
+			\label{fig:R095}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.48\linewidth}
+			\begin{center}
+				\includegraphics[width = 0.9\columnwidth]{./simulation/figure/rf_pseudopotential_R=100.jpg}
+				\caption{$R=1.0$}
+				\label{fig:R100}
+			\end{center}
+		\end{minipage}
+\end{figure}
+
+\clearpage
+
+\section{Secularポテンシャル}
+イオンを捕獲するときのトラップポテンシャルは，dcポテンシャルとrf擬ポテンシャルの重ね合わせ，
+\large
+\begin{align}
+	\phi_{\rm secular} = \phi_{\rm DC} + \phi_{\rm eff}
+\end{align}
+\normalsize
+で表される．これをSecularポテンシャルと呼ぶ．\Fig{SecPot_single-well}にその一例を示す．
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width = 0.7\linewidth]{./simulation/figure/Secular_pot_xy.jpg}
+		\caption{x-y平面でのSingle-wellの条件におけるSecularポテンシャル}
+		\label{fig:SecPot_single-well}
+	\end{center}
+\end{figure}
+
+\section{各方向における永年周波数}

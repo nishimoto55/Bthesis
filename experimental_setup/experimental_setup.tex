@@ -1,5 +1,5 @@
-\chapter{実験のセットアップ}
-\section{使用するプレーナートラップ}
+\chapter{実験装置}
+\section{プレーナートラップ}
 本実験で使用する電極の写真を\Fig{Using_PlannerTrap}に示す．
 \begin{figure}[h]
 	\begin{center}
@@ -9,7 +9,27 @@
 	\end{center}
 \end{figure}
 
-\section{使用するレーザーのビーム径と強度}
+\section{光学系}
+\Fig{optical_system}にイオン捕獲のためのレーザーの光学系を示す．
+\begin{figure}[h]
+	\centering
+		\includegraphics[width = 0.7\linewidth]{./experimental_setup/figure/Optical_System.png}
+		\caption{プレーナートラップに照射するレーザーの光学系}
+		\label{fig:optical_system}
+\end{figure}
+
+\section{レーザー}
+\begin{table}[h]
+	\centering
+		\caption{$^{40}{\rm Ca}^+$を捕獲するときに使用するレーザーの波長}
+		\label{tb:use_laser}
+			\begin{tabular}{c|c} \hline \hline
+				基準周波数 & 632 nm \\ 
+				$^{40}{\rm Ca}$のイオン化 & 423 nm, 375 nm \\
+				$^{40}{\rm Ca}^+$の冷却 & 397 nm \\
+				$^{40}{\rm Ca}^+$のリポンプ　& 866 nm \\ \hline 
+			\end{tabular}
+\end{table}
 イオントラップに使用するレーザーのビーム径とその強度をスリット走査型光ビームプロファイラ(THORLABS,BP209-VIS/M)とデジタルパワー\&エネルギーメータ(THORLABS,PM100D)およびフォトダイオードパワーセンサー(THORLABS,S120C)を用いて計測を行った．
 まず，各レーザーの強度を\Tb{AllLaserPower}に示す．
 
@@ -112,3 +132,5 @@
 	\label{fig:GaussianFitting}
 	\end{center}
 \end{figure}
+
+\section{電気系}

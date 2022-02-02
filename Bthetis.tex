@@ -1,63 +1,52 @@
-\documentclass[a4j,11pt,titlepage]{jsbook}
+\documentclass[a4paper,11pt,titlepage,openany]{jsbook}
 \usepackage[utf8]{inputenc}
 
-\input{setting}
+% -- 設定ファイルの読み込み -- %
+\input{./setting/setting.tex}
 
-\title{卒業論文}
-\author{Ryohsuke Nishimoto}
-\date{\today}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \begin{comment}
-\maketitle
-\pagenumbering{roman}
-\setcounter{tocdepth}{3}
-\tableofcontents
+%%%　!---- 表紙 ----! %%%
+\include{./titlepage/titlepage.tex} %表紙の裏として一ページの余白が入る
 
-\clearpage
-\pagenumbering{arabic}
+%%% !---- 前付 ----! %%%
+\frontmatter
+	%　-- 概論 -- %
+	\input{abst/abst.tex}
+	% -- 目次 -- %
+	\setcounter{tocdepth}{2}
+	\tableofcontents
 
-%%%　---- 概論 ---- %%%
-\chapter*{概要}
-	卒業論文
-\end{comment}
+%%% !---- 本文開始 ----! %%%
+\mainmatter %奇数ページから開始される
+	%　-- 序論 -- %
+	\include{./intro/introduction}
+	%　-- 理論 -- %
+	\include{./theory/theory}
+	%　-- 実験装置 -- %
+	\include{./experimental_setup/experimental_setup.tex}
+	%　-- シミュレーション結果 -- %
+	\include{./simulation/simulation.tex}
+	%　-- 実験方法 -- %
+	\include{./methods/methods}
+	\end{comment}
+	%　-- 実験結果 -- %
+	\include{./results/results}
+	\begin{comment}
+	%　-- 考察 -- %
+	\chapter{考察}
+	%　-- 結論と展望 -- %
+	\chapter{結論と展望}
 
-%%%　---- 序論 ---- %%%
-%\include{./intro/introduction}
-	
-%%%　---- 理論 ---- %%%
-\include{./theory/theory}
+%%% !---- 後付 ----! %%%
+\backmatter
+	%　-- 謝辞 -- %
+	\chapter{謝辞}
+	%　-- 参考文献 -- %
+	\begin{thebibliography}{99}
+	\end{thebibliography}
 
-%%%　---- 実験装置 ---- %%%
-%\include{./experimental_setup/experimental_setup.tex}
-
-%%%　---- シミュレーション結果 ---- %%%
-%\include{./simulation/simulation.tex}
-
-%%%　---- 実験方法と実験結果 ---- %%%
-%\include{./methods_and_results/methods_and_results}
-		
-%%%　---- 考察 ---- %%%
-%\section{考察}
-%%%　---- 結論と展望 ---- %%%
-%\section{結論と展望}
-%%%　---- 謝辞 ---- %%%
-%\section*{謝辞}
-%%%　---- 参考文献 ---- %%%
-%\begin{thebibliography}{99}
-%\end{thebibliography}
-
-
-%\input{section2/text_section2}
-%\input{section3/text_section3}
-%\input{section4/text_section4}
-%\input{section5/text_section5}
-%\input{section7/text_section7}
-%\input{BeamProfile/BeamProfile}
-%\input{section6/text_section6}
-
+	\end{comment}
 \end{document}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
