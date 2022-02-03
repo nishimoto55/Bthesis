@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  2 FEB 2022 16:08
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  3 FEB 2022 14:13
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -186,7 +186,7 @@ File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
 \g__pdf_backend_link_int=\count276
 \g__pdf_backend_link_sf_int=\count277
 )
-(./Bthetis.aux (./results/results.aux))
+(./Bthetis.aux (./methods/methods.aux) (./results/results.aux))
 \openout1 = `Bthetis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -243,9 +243,9 @@ LaTeX Font Info:    ... okay on input line 8.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Excluding 'comment' comment.
-\openout2 = `./results/results.aux'.
+\openout2 = `./methods/methods.aux'.
 
- (./results/results.tex
+ (./methods/methods.tex
 第1章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
@@ -267,130 +267,196 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 2.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
+(Font)              scaled to size 6.72699pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
+(Font)              scaled to size 9.60999pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 4.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 15.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 15.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 15.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 15.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 15.
+File: ./methods/figure/in_laser.png Graphic file (type bmp)
+<./methods/figure/in_laser.png>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 4.
+(Font)              scaled to size 9.60999pt on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 4.
-
-LaTeX Warning: Reference `tab:dc_string' on page 1 undefined on input line 4.
-
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 4.
-
-LaTeX Warning: Reference `tab:dc_string' on page 1 undefined on input line 4.
-
-File: ./results/figure/displacement_End_Odd.png Graphic file (type bmp)
-<./results/figure/displacement_End_Odd.png>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 8.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 8.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 8.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 8.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 8.
-File: ./results/figure/out_V13.jpg Graphic file (type bmp)
-<./results/figure/out_V13.jpg>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 18.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 18.
-
-LaTeX Warning: Reference `tab:dc_string' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Reference `tab:dc_string' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./results/figure/out_V24.jpg Graphic file (type bmp)
-<./results/figure/out_V24.jpg>
-
-LaTeX Warning: Reference `tab:dc_string' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: Reference `tab:dc_string' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(Font)              scaled to size 9.60999pt on input line 36.
 [1
 
 
 
-] [2]
+]
+File: ./methods/figure/1D_wave.jpg Graphic file (type bmp)
+<./methods/figure/1D_wave.jpg>
+File: ./methods/figure/string.jpg Graphic file (type bmp)
+<./methods/figure/string.jpg>
 
-LaTeX Warning: Reference `MeasSecFreq_Method' on page 3 undefined on input line
- 37.
+Overfull \hbox (9.71487pt too wide) in paragraph at lines 81--83
+[][]\OT1/cmr/m/n/10 Image In-ten-si-fier(HAMAMATSU, C9016-02) \JY1/mc/m/n/10 と
+汎用 \OT1/cmr/m/n/10 CCD \JY1/mc/m/n/10 カメラ \OT1/cmr/m/n/10 (THOR-LABS,DCC34
+20M)
+ []
+
+[2
+
+]
+File: ./methods/figure/1_2D.jpg Graphic file (type bmp)
+<./methods/figure/1_2D.jpg>
+File: ./methods/figure/1_2D_wave.jpg Graphic file (type bmp)
+<./methods/figure/1_2D_wave.jpg>
+ [3
+
+]
+File: ./methods/figure/2_2D.jpg Graphic file (type bmp)
+<./methods/figure/2_2D.jpg>
+File: ./methods/figure/2_2D_wave.jpg Graphic file (type bmp)
+<./methods/figure/2_2D_wave.jpg>
+File: ./methods/figure/3_2D.jpg Graphic file (type bmp)
+<./methods/figure/3_2D.jpg>
+File: ./methods/figure/3_2D_wave.jpg Graphic file (type bmp)
+<./methods/figure/3_2D_wave.jpg>
+File: ./methods/figure/4_2D.jpg Graphic file (type bmp)
+<./methods/figure/4_2D.jpg>
+File: ./methods/figure/4_2D_wave.jpg Graphic file (type bmp)
+<./methods/figure/4_2D_wave.jpg>
 
 
-LaTeX Warning: Reference `tab:dc_string' on page 3 undefined on input line 37.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[4
+
+]
+File: ./methods/figure/5_2D.jpg Graphic file (type bmp)
+<./methods/figure/5_2D.jpg>
+File: ./methods/figure/5_2D_wave.jpg Graphic file (type bmp)
+<./methods/figure/5_2D_wave.jpg>
+ [5]
+File: ./methods/figure/SecularFreqMeasSetup.png Graphic file (type bmp)
+<./methods/figure/SecularFreqMeasSetup.png>
+File: ./methods/figure/off_resonance.jpg Graphic file (type bmp)
+<./methods/figure/off_resonance.jpg>
+File: ./methods/figure/resonance.jpg Graphic file (type bmp)
+<./methods/figure/resonance.jpg>
+ [6
+
+]
+File: ./methods/figure/PlotOf_resonance.png Graphic file (type bmp)
+<./methods/figure/PlotOf_resonance.png>
+File: ./methods/figure/fitting_result.jpg Graphic file (type bmp)
+<./methods/figure/fitting_result.jpg>
+ [7
+
+]
+File: ./methods/figure/raw_image.png Graphic file (type bmp)
+<./methods/figure/raw_image.png>
+File: ./methods/figure/rect_image.png Graphic file (type bmp)
+<./methods/figure/rect_image.png>
+
+
+LaTeX Warning: Reference `eq:equi_string' on page 8 undefined on input line 332
+.
+
+File: ./methods/figure/out_image.png Graphic file (type bmp)
+<./methods/figure/out_image.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 337.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 337.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 337.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 337.
+
+LaTeX Warning: Reference `eq:equi_string' on page 8 undefined on input line 337
+.
+
+
+LaTeX Warning: Reference `eq:equi_string' on page 8 undefined on input line 337
+.
+
+) [8
+
+]
+\openout2 = `./results/results.aux'.
+
+ (./results/results.tex
+第2章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 3.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 3.
+File: ./results/figure/displacement_End_Odd.png Graphic file (type bmp)
+<./results/figure/displacement_End_Odd.png>
+[9
+
+
+
+
+]
+File: ./results/figure/out_V13.jpg Graphic file (type bmp)
+<./results/figure/out_V13.jpg>
+File: ./results/figure/out_V24.jpg Graphic file (type bmp)
+<./results/figure/out_V24.jpg>
+ [10
+
+]
 File: ./results/figure/end13-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/end13-SecFreq.jpg>
 File: ./results/figure/Vend13-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vend13-SecFreqZ.jpg>
 File: ./results/figure/end24-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/end24-SecFreq.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3
+ [11
 
 ]
 File: ./results/figure/Vend24-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vend24-SecFreqZ.jpg>
- [4]
+ [12]
 File: ./results/figure/Vendodd-SecFreqZ_Vendeven.jpg Graphic file (type bmp)
 <./results/figure/Vendodd-SecFreqZ_Vendeven.jpg>
 File: ./results/figure/Vendodd_Vendeven-SecFreqZ_.jpg Graphic file (type bmp)
 <./results/figure/Vendodd_Vendeven-SecFreqZ_.jpg>
 
-Underfull \hbox (badness 5403) in paragraph at lines 94--94
- [][]\OT1/cmr/m/n/9 Figure 1.9 Fig. 1.8 \JY1/mc/m/n/9 において横軸に 
+Underfull \hbox (badness 5403) in paragraph at lines 98--98
+ [][]\OT1/cmr/m/n/9 Figure 2.9 Fig. 2.8 \JY1/mc/m/n/9 において横軸に 
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 84--98
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 88--102
 [][][]$[]$[] []$[]$[] 
  []
 
 File: ./results/figure/Normalized_Vendodd_Vendeven-SecFreqZ_.jpg Graphic file (
 type bmp)
 <./results/figure/Normalized_Vendodd_Vendeven-SecFreqZ_.jpg>
-[5
+[13
 
 ]
 File: ./results/figure/mid-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/mid-SecFreq.jpg>
 File: ./results/figure/Vmid-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vmid-SecFreqZ.jpg>
- [6
+ [14
 
 ]
 File: ./results/figure/2D_off_resonance.jpg Graphic file (type bmp)
@@ -398,24 +464,29 @@ File: ./results/figure/2D_off_resonance.jpg Graphic file (type bmp)
 File: ./results/figure/2D_resonance.jpg Graphic file (type bmp)
 <./results/figure/2D_resonance.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 139--153
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 143--157
 [][][]$[]$[] []$[]$[] 
  []
 
-) [7
+) [15
 
-] Excluding 'comment' comment. (./Bthetis.aux (./results/results.aux))
+] Excluding 'comment' comment. (./Bthetis.aux (./methods/methods.aux)
+(./results/results.aux))
 
 LaTeX Warning: There were undefined references.
 
- ) 
-Here is how much of TeX's memory you used:
- 2831 strings out of 478816
- 45289 string characters out of 5863666
- 360248 words of memory out of 5000000
- 21139 multiletter control sequences out of 15000+600000
- 420977 words of font info for 107 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 60i,9n,65p,635b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ )
+(\end occurred inside a group at level 1)
 
-Output written on Bthetis.dvi (7 pages, 13712 bytes).
+### simple group (level 1) entered at line 282 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 2995 strings out of 478816
+ 50068 string characters out of 5863666
+ 363843 words of memory out of 5000000
+ 21272 multiletter control sequences out of 15000+600000
+ 421312 words of font info for 108 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 60i,9n,65p,725b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Bthetis.dvi (15 pages, 37988 bytes).
