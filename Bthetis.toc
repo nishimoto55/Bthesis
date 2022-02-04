@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.3}Double-wellにおけるrf擬ポテンシャル}{15}{}%
 \contentsline {section}{\numberline {4.4}Secularポテンシャル}{16}{}%
 \contentsline {section}{\numberline {4.5}各方向における永年周波数}{16}{}%
-\contentsline {chapter}{\numberline {第5章}実験方法と結果}{17}{}%
+\contentsline {chapter}{\numberline {第5章}実験方法}{17}{}%
 \contentsline {section}{\numberline {5.1}一列配列イオンの捕獲}{17}{}%
 \contentsline {section}{\numberline {5.2}二列配列イオンの捕獲}{19}{}%
 \contentsline {section}{\numberline {5.3}永年周波数の測定方法}{22}{}%
@@ -35,11 +35,14 @@
 \contentsline {chapter}{\numberline {第6章}実験結果}{25}{}%
 \contentsline {section}{\numberline {6.1}一列配列イオン}{25}{}%
 \contentsline {subsection}{\numberline {6.1.1}イオン捕獲位置のdc電圧依存性}{25}{}%
-\contentsline {subsection}{\numberline {6.1.2}永年周波数のdc電圧依存性}{25}{}%
-\contentsline {section}{\numberline {6.2}二列配列イオン}{25}{}%
-\contentsline {subsection}{\numberline {6.2.1}イオン列間距離dと比率Rとの関係}{25}{}%
-\contentsline {subsection}{\numberline {6.2.2}永年周波数の測定結果}{25}{}%
-\contentsline {chapter}{\numberline {第7章}考察}{26}{}%
-\contentsline {chapter}{\numberline {第8章}結論と展望}{27}{}%
-\contentsline {chapter}{謝辞}{28}{}%
-\contentsline {chapter}{参考文献}{29}{}%
+\contentsline {subsection}{\numberline {6.1.2}永年周波数のdc電圧依存性}{27}{}%
+\contentsline {subsection}{\numberline {6.1.3}永年周波数の測定結果から導く電場の傾き}{31}{}%
+\contentsline {subsection}{\numberline {6.1.4}イオン捕獲位置特定による電場検出結果}{31}{}%
+\contentsline {subsection}{\numberline {6.1.5}2通りの電場の傾きの算出方法の比較}{33}{}%
+\contentsline {section}{\numberline {6.2}二列配列イオン}{34}{}%
+\contentsline {subsection}{\numberline {6.2.1}イオン列間距離dと比率Rとの関係}{34}{}%
+\contentsline {subsection}{\numberline {6.2.2}永年周波数の測定結果}{34}{}%
+\contentsline {chapter}{\numberline {第7章}考察}{35}{}%
+\contentsline {chapter}{\numberline {第8章}結論と展望}{36}{}%
+\contentsline {chapter}{謝辞}{37}{}%
+\contentsline {chapter}{参考文献}{38}{}%
