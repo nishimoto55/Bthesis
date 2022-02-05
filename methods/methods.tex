@@ -249,7 +249,7 @@
 \clearpage
 
 \section{永年周波数の測定方法} \label{MeasSecFreq_Method}
-プレーナートラップ上の電場を直接的に測定することはできない．単一イオンの捕獲位置におけるポテンシャルの概形を見積もり，電場の傾きの算出を行うため，単一イオンの永年周波数の測定システムの開発を行った．dc電極にac信号を重畳させることでイオンに共鳴現象を引き起こすことが可能であり，共鳴時にはイオンの蛍光量が減少し，また，その振幅が拡がることが画像から確認することができる．本実験では，\Fig{MeasSec_System}に示すF.G.2からの信号をmiddle1電極に印加し周波数掃引を行ったときのイオンの振幅の周波数特性を取得し，ローレンツ分布関数によるフィッティングを行うことで永年周波数の測定を行った．また，イオンの振幅を計測するにあたり，S/N比を向上させるため積算回数を15回としている．
+プレーナートラップ上の電場を直接的に測定することはできない．単一イオンの捕獲位置におけるポテンシャルの概形を見積もり，電場の傾きの算出を行うため，単一イオンの永年周波数の測定システムの開発を行った．dc電極にac信号を重畳させることでイオンに共鳴現象を引き起こすことが可能であり，共鳴時にはイオンの蛍光量が減少し，また，その振幅が拡がることが画像から確認することができる．本実験では，\Fig{MeasSec_System}に示すF.G.2から出力するac信号をmiddle1電極に重畳し周波数掃引を行ったときのイオンの振幅の周波数特性を取得し，ローレンツ分布関数によるフィッティングを行うことで永年周波数の測定を行った．また，イオンの振幅を計測するにあたり，S/N比を向上させるため積算回数を15回としている．
 
 \begin{figure}[h]
 	\centering
@@ -279,17 +279,26 @@
 
 \clearpage
 
-ここで，イオンの振幅は蛍光強度の最大値$I_{\rm max}$の半分における蛍光強度の幅をイオンの振幅としてみなしている({\Fig{example_resonance_Amp})．
+ここで，イオンの振幅は蛍光強度の最大値$I_{\rm max}$としたときの$I_{\rm max}/2$における蛍光強度の幅をイオンの振幅としてみなしている．非共鳴時(\Fig{example_off_resonance})と共鳴時(\Fig{example_resonance})のz軸に沿ったイオンの蛍光強度のプロファイルを\Fig{example_off_resonance_Amp}と\Fig{example_resonance_Amp}に示す．
 
 \begin{figure}[h]
-	\begin{center}
-		\includegraphics[width = 0.6\linewidth]{./methods/figure/PlotOf_resonance.png}
-		\caption{\Fig{example_resonance}におけるイオンの振幅}
-		\label{fig:example_resonance_Amp}
-	\end{center}
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.98\columnwidth]{./methods/figure/PlotOf_off_resonance.png}
+			\caption{\Fig{example_off_resonance}におけるイオンの振幅}
+			\label{fig:example_off_resonance_Amp}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.98\columnwidth]{./methods/figure/PlotOf_resonance.png}
+			\caption{\Fig{example_resonance}におけるイオンの振幅}
+			\label{fig:example_resonance_Amp}
+		\end{center}
+	\end{minipage}
 \end{figure}
 
-\Fig{fitting_result}に\Tb{dc_string}に示すdc電圧セットにおいて周波数掃引を行い取得したイオンの振幅の周波数特性と，そのフィッティング結果を示す．
+\Tb{dc_string}に示すdc電圧セットにおいて周波数掃引を行い取得したイオンの振幅の周波数特性と，そのフィッティング結果を\Fig{fitting_result}に示す．
 
 \begin{figure}[h]
 	\centering
@@ -301,7 +310,7 @@
 フィッティングパラメーターから，z方向の永年周波数は
 
 \begin{align}
-\left( \frac{\omega_z}{2\pi}\right) = 216.4 \pm 0.32 \  {\rm kHz} \notag
+\frac{\omega_z}{2\pi} = 216.4 \pm 0.32 \  {\rm kHz} \notag
 \end{align}
 
 と決定される．なお，このときのac信号の振幅は200 mVppで周波数掃引は215 kHzから218 kHzまで50 Hz刻みで行った．
@@ -333,7 +342,7 @@ Python3.6の環境下で，NumPyとOpenCVのモジュールを利用して，イ
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.5]{./methods/figure/out_image.png}
+		\includegraphics[scale=0.8]{./methods/figure/out_image.png}
 		\caption{イオンの位置特定を行い，平衡の式\Eq{equi_string}を用いて算出した電場の大きさと向き(赤丸はイオンの位置を示し，青色の矢印の長さと向きは電場の大きさと向きを示している)}
 		\label{fig:out_image}
 	\end{center}
