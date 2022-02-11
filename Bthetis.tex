@@ -6,7 +6,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\begin{comment}
 %%%　!---- 表紙 ----! %%%
 \include{./titlepage/titlepage.tex} %表紙の裏として一ページの余白が入る
 
@@ -21,31 +20,26 @@
 %%% !---- 本文開始 ----! %%%
 \mainmatter %奇数ページから開始される
 	%　-- 序論 -- %
-	\include{./intro/introduction}
+	\include{./intro/introduction.tex}
 	%　-- 理論 -- %
-	\include{./theory/theory}
+	\include{./theory/theory.tex}
 	%　-- 実験装置 -- %
 	\include{./experimental_setup/experimental_setup.tex}
 	%　-- シミュレーション結果 -- %
 	\include{./simulation/simulation.tex}
-	\end{comment}
 	%　-- 実験方法 -- %
-	\include{./methods/methods}
+	\include{./methods/methods.tex}
 	%　-- 実験結果 -- %
-	\include{./results/results}
-	\begin{comment}
+	\include{./results/results.tex}
 	%　-- 考察 -- %
-	\chapter{考察}
+	\include{./discuss/discuss.tex}
 	%　-- 結論と展望 -- %
-	\chapter{結論と展望}
-
+	\include{./conclusion/conclusion.tex}
 %%% !---- 後付 ----! %%%
 \backmatter
 	%　-- 謝辞 -- %
-	\chapter{謝辞}
+	\include{./Acknowledge/Acknowledge.tex}
 	%　-- 参考文献 -- %
-	\begin{thebibliography}{99}
-	\end{thebibliography}
-\end{comment}
+	\include{./bib/bib.tex}
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

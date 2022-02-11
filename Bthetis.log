@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  6 FEB 2022 01:13
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  9 FEB 2022 21:03
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -186,7 +186,11 @@ File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
 \g__pdf_backend_link_int=\count276
 \g__pdf_backend_link_sf_int=\count277
 )
-(./Bthetis.aux (./methods/methods.aux) (./results/results.aux))
+(./Bthetis.aux (./titlepage/titlepage.aux) (./intro/introduction.aux)
+(./theory/theory.aux) (./experimental_setup/experimental_setup.aux)
+(./simulation/simulation.aux) (./methods/methods.aux) (./results/results.aux)
+(./discuss/discuss.aux) (./conclusion/conclusion.aux)
+(./Acknowledge/Acknowledge.aux) (./bib/bib.aux))
 \openout1 = `Bthetis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -242,62 +246,336 @@ LaTeX Font Info:    ... okay on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Excluding 'comment' comment.
+\openout2 = `./titlepage/titlepage.aux'.
+
+(./titlepage/titlepage.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 4.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 6.
+ [1
+
+
+
+]) [2
+
+
+
+] (./abst/abst.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+)
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 18.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 18.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 18.
+ [1
+
+] (./Bthetis.toc
+[2
+
+])
+\tf@toc=\write4
+\openout4 = `Bthetis.toc'.
+
+ [3] [4
+
+]
+\openout2 = `./intro/introduction.aux'.
+
+ (./intro/introduction.tex
+第1章
+) [1
+
+
+]
+\openout2 = `./theory/theory.aux'.
+
+ (./theory/theory.tex
+第2章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 2.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 2.
+File: ./theory/figure/figure1a.png Graphic file (type bmp)
+<./theory/figure/figure1a.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 13.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 13.
+File: ./theory/figure/figure1b.png Graphic file (type bmp)
+<./theory/figure/figure1b.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 10--24
+[][][]$[]$[] []$[]$[] 
+ []
+
+[2
+
+
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 29.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 30.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 30.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 30.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 36.
+ [3
+
+] [4]
+File: ./theory/figure/PaulTrap_3Dto2D_3DTrap.png Graphic file (type bmp)
+<./theory/figure/PaulTrap_3Dto2D_3DTrap.png>
+File: ./theory/figure/PaulTrap_3Dto2D_2DTrap.png Graphic file (type bmp)
+<./theory/figure/PaulTrap_3Dto2D_2DTrap.png>
+File: ./theory/figure/named_electrode.png Graphic file (type bmp)
+<./theory/figure/named_electrode.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+File: ./theory/figure/Potential_of_rect-electrode.png Graphic file (type bmp)
+<./theory/figure/Potential_of_rect-electrode.png>
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 171.
+
+Overfull \hbox (0.33577pt too wide) detected at line 180
+[]
+ []
+
+[6]
+File: ./theory/figure/general_Ca+.png Graphic file (type bmp)
+<./theory/figure/general_Ca+.png>
+File: ./theory/figure/Ca_energy.png Graphic file (type bmp)
+<./theory/figure/Ca_energy.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 188--202
+[][][]$[]$[] []$[]$[] 
+ []
+
+File: ./theory/figure/DopplerEffect.png Graphic file (type bmp)
+<./theory/figure/DopplerEffect.png>
+File: ./theory/figure/cooling_spectrum.png Graphic file (type bmp)
+<./theory/figure/cooling_spectrum.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 211--225
+[][][]$[]$[] []$[]$[] 
+ []
+
+[7]
+File: ./theory/figure/Ca+_energy.png Graphic file (type bmp)
+<./theory/figure/Ca+_energy.png>
+File: ./theory/figure/5/image_0.jpg Graphic file (type bmp)
+<./theory/figure/5/image_0.jpg>
+File: ./theory/figure/5/image_1.jpg Graphic file (type bmp)
+<./theory/figure/5/image_1.jpg>
+File: ./theory/figure/5/image_2.jpg Graphic file (type bmp)
+<./theory/figure/5/image_2.jpg>
+ [8]
+File: ./theory/figure/5/hist_0.jpg Graphic file (type bmp)
+<./theory/figure/5/hist_0.jpg>
+File: ./theory/figure/5/hist_1.jpg Graphic file (type bmp)
+<./theory/figure/5/hist_1.jpg>
+File: ./theory/figure/5/hist_2.jpg Graphic file (type bmp)
+<./theory/figure/5/hist_2.jpg>
+File: ./theory/figure/5/norm_hist_0.jpg Graphic file (type bmp)
+<./theory/figure/5/norm_hist_0.jpg>
+File: ./theory/figure/5/norm_hist_1.jpg Graphic file (type bmp)
+<./theory/figure/5/norm_hist_1.jpg>
+File: ./theory/figure/5/norm_hist_2.jpg Graphic file (type bmp)
+<./theory/figure/5/norm_hist_2.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./theory/figure/5/thre_norm_hist_0.jpg Graphic file (type bmp)
+<./theory/figure/5/thre_norm_hist_0.jpg>
+File: ./theory/figure/5/thre_norm_hist_1.jpg Graphic file (type bmp)
+<./theory/figure/5/thre_norm_hist_1.jpg>
+File: ./theory/figure/5/thre_norm_hist_2.jpg Graphic file (type bmp)
+<./theory/figure/5/thre_norm_hist_2.jpg>
+[9]
+File: ./theory/figure/5/binary_0.jpg Graphic file (type bmp)
+<./theory/figure/5/binary_0.jpg>
+File: ./theory/figure/5/binary_1.jpg Graphic file (type bmp)
+<./theory/figure/5/binary_1.jpg>
+File: ./theory/figure/5/binary_2.jpg Graphic file (type bmp)
+<./theory/figure/5/binary_2.jpg>
+ [10]) [11]
+\openout2 = `./experimental_setup/experimental_setup.aux'.
+
+ (./experimental_setup/experimental_setup.tex
+第3章
+File: ./experimental_setup/figure/Using_PlannerTrap.png Graphic file (type bmp)
+
+<./experimental_setup/figure/Using_PlannerTrap.png>
+File: ./experimental_setup/figure/Optical_System.png Graphic file (type bmp)
+<./experimental_setup/figure/Optical_System.png>
+[12
+
+
+
+
+]
+File: ./experimental_setup/figure/AllLaserXpos.jpg Graphic file (type bmp)
+<./experimental_setup/figure/AllLaserXpos.jpg>
+File: ./experimental_setup/figure/AllLaserYpos.jpg Graphic file (type bmp)
+<./experimental_setup/figure/AllLaserYpos.jpg>
+ [13]
+File: ./experimental_setup/figure/375GaussianFittingXpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/375GaussianFittingXpos.jpg>
+File: ./experimental_setup/figure/375GaussianFittingYpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/375GaussianFittingYpos.jpg>
+File: ./experimental_setup/figure/397GaussianFittingXpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/397GaussianFittingXpos.jpg>
+File: ./experimental_setup/figure/397GaussianFittingYpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/397GaussianFittingYpos.jpg>
+File: ./experimental_setup/figure/423GaussianFittingXpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/423GaussianFittingXpos.jpg>
+File: ./experimental_setup/figure/423GaussianFittingYpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/423GaussianFittingYpos.jpg>
+File: ./experimental_setup/figure/866GaussianFittingXpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/866GaussianFittingXpos.jpg>
+File: ./experimental_setup/figure/866GaussianFittingYpos.jpg Graphic file (type
+ bmp)
+<./experimental_setup/figure/866GaussianFittingYpos.jpg>
+ [14
+
+]
+File: ./experimental_setup/figure/Detect.png Graphic file (type bmp)
+<./experimental_setup/figure/Detect.png>
+) [15
+
+]
+\openout2 = `./simulation/simulation.aux'.
+
+ (./simulation/simulation.tex
+第4章
+File: ./simulation/figure/named_rect_electrode.png Graphic file (type bmp)
+<./simulation/figure/named_rect_electrode.png>
+[16
+
+
+
+
+]
+File: ./simulation/figure/dc_potential_example.png Graphic file (type bmp)
+<./simulation/figure/dc_potential_example.png>
+File: ./simulation/figure/PlannarTrap_3D_z=0.png Graphic file (type bmp)
+<./simulation/figure/PlannarTrap_3D_z=0.png>
+ [17
+
+]
+File: ./simulation/figure/Single-well_Contour_xy@z=0.jpg Graphic file (type bmp
+)
+<./simulation/figure/Single-well_Contour_xy@z=0.jpg>
+File: ./simulation/figure/single-well_zx.jpg Graphic file (type bmp)
+<./simulation/figure/single-well_zx.jpg>
+ [18
+
+]
+File: ./simulation/figure/rf_pseudopotential_R=075.jpg Graphic file (type bmp)
+<./simulation/figure/rf_pseudopotential_R=075.jpg>
+File: ./simulation/figure/rf_pseudopotential_R=080.jpg Graphic file (type bmp)
+<./simulation/figure/rf_pseudopotential_R=080.jpg>
+File: ./simulation/figure/rf_pseudopotential_R=090.jpg Graphic file (type bmp)
+<./simulation/figure/rf_pseudopotential_R=090.jpg>
+File: ./simulation/figure/rf_pseudopotential_R=092.jpg Graphic file (type bmp)
+<./simulation/figure/rf_pseudopotential_R=092.jpg>
+File: ./simulation/figure/rf_pseudopotential_R=095.jpg Graphic file (type bmp)
+<./simulation/figure/rf_pseudopotential_R=095.jpg>
+File: ./simulation/figure/rf_pseudopotential_R=100.jpg Graphic file (type bmp)
+<./simulation/figure/rf_pseudopotential_R=100.jpg>
+ [19
+
+]
+File: ./simulation/figure/Single-well_Secular_pot_xy.jpg Graphic file (type bmp
+)
+<./simulation/figure/Single-well_Secular_pot_xy.jpg>
+File: ./simulation/figure/Double-well_Secular_pot_xy.jpg Graphic file (type bmp
+)
+<./simulation/figure/Double-well_Secular_pot_xy.jpg>
+ [20
+
+]
+File: ./simulation/figure/Double-well_z=0.png Graphic file (type bmp)
+<./simulation/figure/Double-well_z=0.png>
+File: ./simulation/figure/Calc_R_d.jpg Graphic file (type bmp)
+<./simulation/figure/Calc_R_d.jpg>
+File: ./simulation/figure/Calc_R_phi.jpg Graphic file (type bmp)
+<./simulation/figure/Calc_R_phi.jpg>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 189--203
+[][][]$[]$[] []$[]$[] 
+ []
+
+[21
+
+]
+File: ./simulation/figure/determine_SecFreq.jpg Graphic file (type bmp)
+<./simulation/figure/determine_SecFreq.jpg>
+) [22
+
+]
 \openout2 = `./methods/methods.aux'.
 
  (./methods/methods.tex
-第1章
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 2.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 4.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 15.
+第5章
 File: ./methods/figure/in_laser.png Graphic file (type bmp)
 <./methods/figure/in_laser.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 36.
-[1
+[23
+
 
 
 
@@ -313,14 +591,14 @@ Overfull \hbox (9.71487pt too wide) in paragraph at lines 81--83
 20M)
  []
 
-[2
+[24
 
 ]
 File: ./methods/figure/1_2D.jpg Graphic file (type bmp)
 <./methods/figure/1_2D.jpg>
 File: ./methods/figure/1_2D_wave.jpg Graphic file (type bmp)
 <./methods/figure/1_2D_wave.jpg>
- [3
+ [25
 
 ]
 File: ./methods/figure/2_2D.jpg Graphic file (type bmp)
@@ -339,21 +617,21 @@ File: ./methods/figure/4_2D_wave.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4
+[26
 
 ]
 File: ./methods/figure/5_2D.jpg Graphic file (type bmp)
 <./methods/figure/5_2D.jpg>
 File: ./methods/figure/5_2D_wave.jpg Graphic file (type bmp)
 <./methods/figure/5_2D_wave.jpg>
- [5]
+ [27]
 File: ./methods/figure/SecularFreqMeasSetup.png Graphic file (type bmp)
 <./methods/figure/SecularFreqMeasSetup.png>
 File: ./methods/figure/off_resonance.jpg Graphic file (type bmp)
 <./methods/figure/off_resonance.jpg>
 File: ./methods/figure/resonance.jpg Graphic file (type bmp)
 <./methods/figure/resonance.jpg>
- [6
+ [28
 
 ]
 File: ./methods/figure/PlotOf_off_resonance.png Graphic file (type bmp)
@@ -367,54 +645,25 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 285--299
 
 File: ./methods/figure/fitting_result.jpg Graphic file (type bmp)
 <./methods/figure/fitting_result.jpg>
-[7
+[29
 
 ]
 File: ./methods/figure/raw_image.png Graphic file (type bmp)
 <./methods/figure/raw_image.png>
 File: ./methods/figure/rect_image.png Graphic file (type bmp)
 <./methods/figure/rect_image.png>
-
-
-LaTeX Warning: Reference `eq:equi_string' on page 8 undefined on input line 341
-.
-
 File: ./methods/figure/out_image.png Graphic file (type bmp)
 <./methods/figure/out_image.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 346.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 346.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 346.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 346.
-
-LaTeX Warning: Reference `eq:equi_string' on page 8 undefined on input line 346
-.
-
-
-LaTeX Warning: Reference `eq:equi_string' on page 8 undefined on input line 346
-.
-
-) [8
+) [30
 
 ]
 \openout2 = `./results/results.aux'.
 
  (./results/results.tex
-第2章
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
+第6章
 File: ./results/figure/displacement_End_Odd.png Graphic file (type bmp)
 <./results/figure/displacement_End_Odd.png>
-[9
+[31
 
 
 
@@ -424,25 +673,23 @@ File: ./results/figure/out_V13.jpg Graphic file (type bmp)
 <./results/figure/out_V13.jpg>
 File: ./results/figure/out_V24.jpg Graphic file (type bmp)
 <./results/figure/out_V24.jpg>
- [10
+ [32
 
 ]
 File: ./results/figure/end13-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/end13-SecFreq.jpg>
 File: ./results/figure/Vend13-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vend13-SecFreqZ.jpg>
- [11
+ [33
 
 ]
 File: ./results/figure/end24-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/end24-SecFreq.jpg>
 File: ./results/figure/Vend24-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vend24-SecFreqZ.jpg>
- [12
+ [34
 
 ]
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 92.
 File: ./results/figure/Vendodd-SecFreqZ_Vendeven.jpg Graphic file (type bmp)
 <./results/figure/Vendodd-SecFreqZ_Vendeven.jpg>
 File: ./results/figure/Vendodd_Vendeven-SecFreqZ_.jpg Graphic file (type bmp)
@@ -455,60 +702,61 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 98--112
 File: ./results/figure/Normalized_Vendodd_Vendeven-SecFreqZ_.jpg Graphic file (
 type bmp)
 <./results/figure/Normalized_Vendodd_Vendeven-SecFreqZ_.jpg>
-[13
+[35
 
 ]
 File: ./results/figure/mid-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/mid-SecFreq.jpg>
 File: ./results/figure/Vmid-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vmid-SecFreqZ.jpg>
- [14
+ [36
 
 ]
+File: ./results/figure/rf_SecFreq.jpg Graphic file (type bmp)
+<./results/figure/rf_SecFreq.jpg>
+ [37
 
-LaTeX Warning: Reference `eq:equi_string' on page 15 undefined on input line 15
-8.
-
+]
 File: ./results/figure/DC1_N1.jpg Graphic file (type bmp)
 <./results/figure/DC1_N1.jpg>
 
-Underfull \hbox (badness 2245) in paragraph at lines 164--164
- [][]\OT1/cmr/m/n/9 Figure 2.13 dc \JY1/mc/m/n/9 電圧セ ット 
+Underfull \hbox (badness 2245) in paragraph at lines 173--173
+ [][]\OT1/cmr/m/n/9 Figure 6.14 dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N2.jpg Graphic file (type bmp)
 <./results/figure/DC1_N2.jpg>
 
-Underfull \hbox (badness 2245) in paragraph at lines 171--171
- [][]\OT1/cmr/m/n/9 Figure 2.14 dc \JY1/mc/m/n/9 電圧セ ット 
+Underfull \hbox (badness 2245) in paragraph at lines 180--180
+ [][]\OT1/cmr/m/n/9 Figure 6.15 dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N3.jpg Graphic file (type bmp)
 <./results/figure/DC1_N3.jpg>
 
-Underfull \hbox (badness 2245) in paragraph at lines 178--178
- [][]\OT1/cmr/m/n/9 Figure 2.15 dc \JY1/mc/m/n/9 電圧セ ット 
+Underfull \hbox (badness 2245) in paragraph at lines 187--187
+ [][]\OT1/cmr/m/n/9 Figure 6.16 dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N4.jpg Graphic file (type bmp)
 <./results/figure/DC1_N4.jpg>
 
-Underfull \hbox (badness 2245) in paragraph at lines 188--188
- [][]\OT1/cmr/m/n/9 Figure 2.16 dc \JY1/mc/m/n/9 電圧セ ット 
+Underfull \hbox (badness 2245) in paragraph at lines 197--197
+ [][]\OT1/cmr/m/n/9 Figure 6.17 dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N5.jpg Graphic file (type bmp)
 <./results/figure/DC1_N5.jpg>
 
-Underfull \hbox (badness 2245) in paragraph at lines 195--195
- [][]\OT1/cmr/m/n/9 Figure 2.17 dc \JY1/mc/m/n/9 電圧セ ット 
+Underfull \hbox (badness 2245) in paragraph at lines 204--204
+ [][]\OT1/cmr/m/n/9 Figure 6.18 dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N6.jpg Graphic file (type bmp)
 <./results/figure/DC1_N6.jpg>
 
-Underfull \hbox (badness 2245) in paragraph at lines 202--202
- [][]\OT1/cmr/m/n/9 Figure 2.18 dc \JY1/mc/m/n/9 電圧セ ット 
+Underfull \hbox (badness 2245) in paragraph at lines 211--211
+ [][]\OT1/cmr/m/n/9 Figure 6.19 dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_E.jpg Graphic file (type bmp)
@@ -526,46 +774,134 @@ File: ./results/figure/DC3_E.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15
+[38
 
-] [16]
+] [39]
+File: ./results/figure/example_phi.png Graphic file (type bmp)
+<./results/figure/example_phi.png>
+File: ./results/figure/example_E.png Graphic file (type bmp)
+<./results/figure/example_E.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 252--266
+[][][]$[]$[] []$[]$[] 
+ []
+
+[40
+
+]
 File: ./results/figure/DC1_COMP.jpg Graphic file (type bmp)
 <./results/figure/DC1_COMP.jpg>
+ [41
+
+]
 File: ./results/figure/DC2_COMP.jpg Graphic file (type bmp)
 <./results/figure/DC2_COMP.jpg>
 File: ./results/figure/DC3_COMP.jpg Graphic file (type bmp)
 <./results/figure/DC3_COMP.jpg>
+ [42
 
+]
+File: ./results/figure/2D_087.jpg Graphic file (type bmp)
+<./results/figure/2D_087.jpg>
+File: ./results/figure/2D_088_0.jpg Graphic file (type bmp)
+<./results/figure/2D_088_0.jpg>
+File: ./results/figure/2D_088_1.jpg Graphic file (type bmp)
+<./results/figure/2D_088_1.jpg>
+File: ./results/figure/2D_090.jpg Graphic file (type bmp)
+<./results/figure/2D_090.jpg>
+File: ./results/figure/2D_091_0.jpg Graphic file (type bmp)
+<./results/figure/2D_091_0.jpg>
+File: ./results/figure/2D_091_1.jpg Graphic file (type bmp)
+<./results/figure/2D_091_1.jpg>
+File: ./results/figure/2D_092.jpg Graphic file (type bmp)
+<./results/figure/2D_092.jpg>
+File: ./results/figure/2D_0925.jpg Graphic file (type bmp)
+<./results/figure/2D_0925.jpg>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 403--417
+[][][]$[]$[] []$[]$[] 
+ []
 
-[17
+[43
 
-] [18]
+]
+File: ./results/figure/2D_meas_R_d.jpg Graphic file (type bmp)
+<./results/figure/2D_meas_R_d.jpg>
+File: ./results/figure/2D_Calc_vs_Meas_R-d.jpg Graphic file (type bmp)
+<./results/figure/2D_Calc_vs_Meas_R-d.jpg>
+ [44
+
+]
 File: ./results/figure/2D_off_resonance.jpg Graphic file (type bmp)
 <./results/figure/2D_off_resonance.jpg>
 File: ./results/figure/2D_resonance.jpg Graphic file (type bmp)
 <./results/figure/2D_resonance.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 270--284
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 449--463
 [][][]$[]$[] []$[]$[] 
  []
 
-) [19
+) [45
 
-] Excluding 'comment' comment. (./Bthetis.aux (./methods/methods.aux)
-(./results/results.aux))
+]
+\openout2 = `./discuss/discuss.aux'.
 
-LaTeX Warning: There were undefined references.
+ (./discuss/discuss.tex
+第7章
+) [46
 
- ) 
+
+
+
+] [47]
+\openout2 = `./conclusion/conclusion.aux'.
+
+ (./conclusion/conclusion.tex
+第8章
+) [48
+
+
+
+
+]
+\openout2 = `./Acknowledge/Acknowledge.aux'.
+
+ (./Acknowledge/Acknowledge.tex) [49
+
+
+
+
+
+]
+\openout2 = `./bib/bib.aux'.
+
+ (./bib/bib.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 2.
+ [50
+
+
+
+
+]) [51]
+(./Bthetis.aux (./titlepage/titlepage.aux) (./intro/introduction.aux)
+(./theory/theory.aux) (./experimental_setup/experimental_setup.aux)
+(./simulation/simulation.aux) (./methods/methods.aux) (./results/results.aux)
+(./discuss/discuss.aux) (./conclusion/conclusion.aux)
+(./Acknowledge/Acknowledge.aux) (./bib/bib.aux)) ) 
 Here is how much of TeX's memory you used:
- 3094 strings out of 478816
- 52422 string characters out of 5863666
- 364011 words of memory out of 5000000
- 21350 multiletter control sequences out of 15000+600000
- 424923 words of font info for 121 fonts, out of 8000000 for 9000
+ 3828 strings out of 478816
+ 78038 string characters out of 5863666
+ 374370 words of memory out of 5000000
+ 21927 multiletter control sequences out of 15000+600000
+ 429483 words of font info for 137 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 60i,9n,65p,792b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,65p,1178b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Bthetis.dvi (19 pages, 49352 bytes).
+Output written on Bthetis.dvi (57 pages, 170712 bytes).

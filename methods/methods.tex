@@ -8,7 +8,7 @@
 \item 397-nm(TOPICA PHOTONICS, DCC110)のmoduleをonにし，CURRENT CTRをonにする．調節ねじを4に回し，電流を51 mA付近に設定する．
 \item 866-nm(Newport, $R_{\rm SET} = 11.682 \ {\rm k}\Omega , I_{0} = 145.16 \ {\rm mA}$)をENABLEに設定する．
 \item arroyo instruments, ComboPak, 685-0.1を使用して，423-nmのECDLに電流を60.04 mAを流し，温度を26.550 $^{\circ}$Cに設定する．
-\item \Tb{use_laser_wavelength}に$^{40}{\rm Ca}^+$の捕獲を行ったときの波長を示す．
+\item \Tb{use_laser_wavelength}に$^{40}{\rm Ca}^+$の捕獲を行ったときの波長を示す．なお，$^{40}{\rm Ca}^+$の捕獲に使用する波長はNISTのAtomic Spectra Database Lines Form\cite{NIST}を参照した．
 
 \begin{table}[h]
 	\centering
@@ -26,7 +26,7 @@
 
  \begin{figure}[h] 
  	\begin{center}
- 		\includegraphics[scale=0.4]{./methods/figure/in_laser.png}
+ 		\includegraphics[scale=0.35]{./methods/figure/in_laser.png}
  		\caption{プレーナートラップに照射する二本のレーザー}
  		\label{fig:lens_string}
  	\end{center}
@@ -342,7 +342,7 @@ Python3.6の環境下で，NumPyとOpenCVのモジュールを利用して，イ
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.8]{./methods/figure/out_image.png}
+		\includegraphics[scale=0.65]{./methods/figure/out_image.png}
 		\caption{イオンの位置特定を行い，平衡の式\Eq{equi_string}を用いて算出した電場の大きさと向き(赤丸はイオンの位置を示し，青色の矢印の長さと向きは電場の大きさと向きを示している)}
 		\label{fig:out_image}
 	\end{center}

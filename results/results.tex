@@ -146,16 +146,25 @@ f = \frac{V_{\rm End1,3}}{V_{\rm End2,4}}
 \end{figure}
 
 \Fig{mid12_MeasSec_SimSec}から，実験値とシミュレーション値に$33.2 \ {\rm kHz} \ \sim \ 41.7 \ {\rm kHz}$の差が存在することが分かった．
+%
+\clearpage
+%
+ここで，永年周波数の実験値とシミュレーション値との差のrf擬ポテンシャルによる影響を調べるため，\Tb{dc_string}に示すdc電圧セットにおいて，rf電極に印加するrf電圧の振幅を変化させ，永年周波数の測定を行い，シミュレーション値との比較を行った．rf電圧の振幅はF. G. 1から出力する振幅を280 ${\rm mV_{pp}}$ $\sim$ 340 ${\rm mV_{pp}}$で 10 ${\rm mV_{pp}}$ずつ変化させた．その結果を\Fig{rf_SecFreq}に示す．
 
-[挿入予定]永年周波数のrf振幅特性 \\
-rf振幅を変化させたときの永年周波数の変化がdc電圧を変化させたときと比較して小さいので，無視する．したがって，rf擬ポテンシャルによって永年周波数の実験値とシミュレーション値との差が生まれているとは考えない．
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width = 0.6\linewidth]{./results/figure/rf_SecFreq.jpg}
+		\caption{永年周波数のrf電圧振幅特性}
+		\label{fig:rf_SecFreq}
+	\end{center}
+\end{figure}
+
+\Fig{rf_SecFreq}より，rf電圧の振幅の変化に対して永年周波数の実験値の変化幅$\Delta(\omega_z/2\pi)_{\rm meas}$は0.9 kHz $\pm$ 0.24 kHz であり，シミュレーション上での永年周波数の変化幅$\Delta(\omega_z/2\pi)_{\rm calc}$は1.343 kHzであった．これより，$\Delta(\omega_z/2\pi)_{\rm meas}$と$\Delta(\omega_z/2\pi)_{\rm calc}$はおおむね一致していることが分かる．また，永年周波数の実測値とシミュレーション値との差が約40 kHzであることに対して，$\Delta(\omega_z/2\pi)_{\rm meas}$が約2.5 \%である．したがって，rf擬ポテンシャルによって実験値とシミュレーション値との差が生じているとは考えず，浮遊電場の存在あるいは，印加しているdc電圧と，電圧降下などによって実際にdc電極に印加されている電圧との差などが原因であると考えられる．
 
 \clearpage
 
-\subsection{永年周波数の測定結果から導く電場の傾き}
-
-\subsection{イオン捕獲位置特定による電場検出結果}
-プレーナートラップ上に形成される電場$\bm{E}$から受ける力と，複数個イオン($N \ geq$ 2)で生じるクーロン相互作用がつり合う位置がイオンの平衡位置となる．$N \ = \ 2 \ \sim \ 6$個のイオンを用いて，それぞれのイオン捕獲位置における電場の算出を\Eq{equi_string}を用いて行った．このとき，単一イオンを捕獲したときの位置を中心に取っている．なお，実験は\Tb{dc_string}の条件に対して，$V_{rm  1,3} \ = 1.24 \ {\rm V} \ ({\rm DC1})$，$V_{\rm End 1,3} \ = 1.44 \ {\rm V} \ ({\rm DC2})$，$V_{\rm End 1,3} \ = 1.64 \ {\rm V} \ ({\rm DC3})$の3種類のdc電圧セットに対して行った．まず，DC1の条件で算出した電場の結果を示す．\Fig{DC1_N1} $\sim$ \Fig{DC1_N6}に$N \ = \ 1 \ \sim \ 6$個のイオンを捕獲したときのイオン捕獲位置での電場の算出結果を示す．
+\subsection{イオン捕獲位置特定による電場検出結果}\label{alpha_pos}
+プレーナートラップ上に形成される電場$\bm{E}$から受ける力と，複数個イオン($N \geq$ 2)で生じるクーロン相互作用がつり合う位置がイオンの平衡位置となる．$N \ = \ 2 \ \sim \ 6$個のイオンを用いて，それぞれのイオン捕獲位置における電場の算出を\Eq{equi_string}を用いて行った．このとき，単一イオンを捕獲したときの位置を中心に取っている．なお，実験は\Tb{dc_string}の条件に対して，$V_{\rm End1,3} \ = 1.24 \ {\rm V} \ ({\rm DC1})$，$V_{\rm End 1,3} \ = 1.44 \ {\rm V} \ ({\rm DC2})$，$V_{\rm End 1,3} \ = 1.64 \ {\rm V} \ ({\rm DC3})$の3種類のdc電圧セットに対して行った．まず，DC1の条件で算出した電場の結果を示す．\Fig{DC1_N1} $\sim$ \Fig{DC1_N6}に$N \ = \ 1 \ \sim \ 6$個のイオンを捕獲したときのイオン捕獲位置での電場の算出結果を示す．
 
 \begin{figure}[h]
 	\begin{minipage}{0.33\linewidth}
@@ -235,7 +244,73 @@ dc電圧セットDC2，DC3の条件においても同様の実験を行い，一
 %
 \clearpage
 %
+
+\subsection{永年周波数の測定結果から導く電場の傾き}\label{alpha_SecFreq}
+単一イオンを用いて測定した永年周波数から，イオン捕獲位置における電場の傾きを求める．
+
+\begin{figure}[h]
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/example_phi.png}
+			\caption{イオンを閉じ込める調和ポテンシャル$\phi (z)$の概形}
+			\label{fig:example_phi}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/example_E.png}
+			\caption{調和ポテンシャル$\phi (z)$を形成する電場$E_z$の概形}
+			\label{fig:example_E}
+		\end{center}
+	\end{minipage}
+\end{figure}
+
+単一イオンはz方向に調和ポテンシャル$\phi (z)$で閉じ込められているとする(\Fig{example_phi})．ここで，
+\begin{align}
+	E_z = - \frac{{\rm d} \phi (z)}{{\rm d} z}
+\end{align}
+の関係が成り立っており，イオン捕獲位置を$z=0$としたとき，
+\begin{align}
+\left[\frac{{\rm d} \phi (z)}{{\rm d} z}\right]_{z = 0} = 0
+\end{align}
+であるとする．さらに，$\phi (z)$が調和ポテンシャルであることから，$E_z$を
+\begin{align}
+	E_z = - \alpha \cdot z
+\end{align}
+とおく(\Fig{example_E})．ここで$\alpha$は任意の定数であり，単位は ${\rm  V/m^2}$である．これらの過程から，$\phi (z)$中でイオンが従う古典的な運動方程式は，
+\begin{align}
+	m \ddot{z} = e \cdot \left[-\frac{{\rm d} \phi (z)}{{\rm d} z}\right]
+\end{align}
+で表される．ここで，$(\omega_z)^2 \equiv (e/m)\cdot \alpha$とおくと，$\phi (z)$は，
+\begin{align}
+	\phi (z) &= \frac{1}{2}\frac{m}{e}\omega_z^2 z^2 \\
+		&= \frac{1}{2}\alpha z^2
+\end{align}
+と表すことができる．これらより，永年周波数を測定することによって$\alpha$の算出を行い，プレーナートラップ上のイオン捕獲位置におけるポテンシャルの概形および電場の傾きを求めることができる．
+%
+\clearpage
+%
+DC1，DC2，DC3のdc電圧セットにおける永年周波数の実験値とシミュレーション値と，それぞれの永年周波数から求められる$\alpha$の値を\Tb{alpha_list}に示す．
+
+\begin{table}[h]
+	\begin{center}
+		\caption{DC1, DC2, DC3のdc電圧セットにおける永年周波数の実験値とシミュレーション値と，それぞれの永年周波数から
+		算出される$\alpha$の値}
+		\label{tab:alpha_list}
+		\begin{tabular}{c|c|c} \hline \hline
+			&シミュレーション値&実験値 \\ \hline
+			$(\omega_z/2\pi)_{\rm DC1}$ (kHz)&155.672&212.0 $\pm$ 0.51 \\ 
+			$\alpha_{\rm DC1}$ ($\times 10^{6}$ ${\rm V/m^2}$)&0.397&0.739 $\pm$ 0.0025 \\ \hline
+			$(\omega_z/2\pi)_{\rm DC2}$ (kHz)&158.314&215.76 $\pm$ 0.073 \\ 
+			$\alpha_{\rm DC2}$ ($\times 10^{6}$ ${\rm V/m^2}$)&0.411&0.7625 $\pm$ 0.00036 \\ \hline
+			$(\omega_z/2\pi)_{\rm DC3}$ (kHz)&155.672&212.0 $\pm$ 0.51 \\ 
+			$\alpha_{\rm DC3}$ ($\times 10^{6}$ ${\rm V/m^2}$)&0.417&0.7678 $\pm$ 0.00096 \\ \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
 \subsection{2通りの電場の傾きの算出方法の比較}
+永年周波数から電場の傾きを算出する方法の精度を確認するため，\ref{alpha_pos}と\ref{alpha_SecFreq}の2つの手法の比較を行うことでクロスチェックを行った．DC1，DC2，DC3の3種類のdc電圧セットにおける電場の傾きの算出結果の比較を行った．まず，DC1における比較結果を\Fig{DC1_COMP}に示す．
 
 \begin{figure}[h]
 	\begin{center}
@@ -244,6 +319,13 @@ dc電圧セットDC2，DC3の条件においても同様の実験を行い，一
 		\label{fig:DC1_COMP}
 	\end{center}
 \end{figure}
+
+\Fig{DC1_COMP}より，イオン捕獲位置から求めた電場の傾きに対して，永年周波数から算出した電場の傾きは15.0 \%の精度で算出されることが分かる．
+%
+\clearpage
+%
+次にDC2における比較結果を\Fig{DC2_COMP}に示す．
+
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width = 0.6\linewidth]{./results/figure/DC2_COMP.jpg}
@@ -251,6 +333,9 @@ dc電圧セットDC2，DC3の条件においても同様の実験を行い，一
 		\label{fig:DC2_COMP}
 	\end{center}
 \end{figure}
+
+\Fig{DC2_COMP}より，イオン捕獲位置から求めた電場の傾きに対して，永年周波数から算出した電場の傾きは16.0 \%の精度で算出されることが分かる．最後にDC3における比較結果を\Fig{DC3_COMP}に示す．
+
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width = 0.6\linewidth]{./results/figure/DC3_COMP.jpg}
@@ -259,26 +344,122 @@ dc電圧セットDC2，DC3の条件においても同様の実験を行い，一
 	\end{center}
 \end{figure}
 
+\Fig{DC3_COMP}より，イオン捕獲位置から求めた電場の傾きに対して，永年周波数から算出した電場の傾きは15.7 \%の精度で算出されることが分かる．これらより，永年周波数から求められる電場の傾きは$15 \sim 16$ \%の程度で算出することが可能であり，おおむね一致していると考えられる．したがって，単一イオンを用いて測定可能であることから，二列配列イオンにおける電場検出に即し，永年周波数を測定することによる電場を検出する手法は有効であると考える．
 %
 \clearpage
 %
 \section{二列配列イオン}
 \subsection{イオン列間距離dと比率Rとの関係}
-\subsection{永年周波数の測定結果}
+二列配列イオンの捕獲に際して，rf電圧の振幅とcenter-rf電圧の振幅の比率$R$が大きい場合にイオン列間距離$d$が大きくなることがシミュレーションによって示されていたことから，実験を行い$R-d$特性の取得を行った．$R = 0.87 \sim 0.925$の範囲で$R$を変化させたときのイオン捕獲画像を\Fig{2D_087} $\sim$ \Fig{2D_0925}に示す．
+\begin{figure}[h]
+	\begin{minipage}{0.33\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_087.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.87$}
+			\label{fig:2D_087}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.33\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_088_0.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.88$}
+			\label{fig:2D_088}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.33\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_088_1.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.89$}
+			\label{fig:2D_089}
+		\end{center}
+	\end{minipage}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{minipage}{0.33\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_090.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.90$}
+			\label{fig:2D_090}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.33\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_091_0.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.91$}
+			\label{fig:2D_091}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.33\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_091_1.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.915$}
+			\label{fig:2D_0915}
+		\end{center}
+	\end{minipage}
+\end{figure}
 
 \begin{figure}[h]
 	\begin{minipage}{0.5\linewidth}
 		\begin{center}
-			\includegraphics[width = 0.98\columnwidth]{./results/figure/2D_off_resonance.jpg}
+			\includegraphics[width = 0.5\columnwidth]{./results/figure/2D_092.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.92$}
+			\label{fig:2D_092}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.5\columnwidth]{./results/figure/2D_0925.jpg}
+			\caption{二列配列イオンの捕獲画像$R = 0.925$}
+			\label{fig:2D_0925}
+		\end{center}
+	\end{minipage}
+\end{figure}
+
+\Fig{2D_087} $\sim$ \Fig{2D_0925}より$R$が大きくなるにつれ，イオン列間距離$d$が広がっていることが分かる．
+%
+\clearpage
+%
+そして，イオン列間距離間$d$を求め，$R$との関係を\Fig{R_d}に示す．
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width = 0.6\linewidth]{./results/figure/2D_meas_R_d.jpg}
+		\caption{\Fig{2D_087} $\sim$ \Fig{2D_0925}から得られた$R$ - $d$特性}
+		\label{fig:R_d}
+	\end{center}
+\end{figure}
+
+また，シミュレーションにおいて得られた$R$ - $d$特性(\Fig{calc_R-d})との比較を\Fig{R-d_Calc_vs_Meas}に示す．
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width = 0.6\linewidth]{./results/figure/2D_Calc_vs_Meas_R-d.jpg}
+		\caption{$R$ - $d$特性の実験値とシミュレーション値との比較}
+		\label{fig:R-d_Calc_vs_Meas}
+	\end{center}
+\end{figure}
+%
+\clearpage
+%
+\subsection{共鳴現象の確認}
+一列配列イオンではF. G. 2から出力されるac信号の周波数を掃引することでイオンの振幅の周波数特性の取得を行ったが，二列配列イオンではイオンが列間で移動してしまうことから，イオンの振幅の周波数特性の取得を行うことができなかった．そのため，F. G. 2から出力されるac信号の周波数を手動で変化させ，共鳴現象の観測を試みた．二列配列イオンにおける非共鳴時と共鳴時の捕獲画像を\Fig{2D_off_resonance}と\Fig{2D_resonance}に示す．
+
+\begin{figure}[h]
+	\begin{minipage}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_off_resonance.jpg}
 			\caption{二列配列イオンでの非共鳴時の捕獲画像}
 			\label{fig:2D_off_resonance}
 		\end{center}
 	\end{minipage}
 	\begin{minipage}{0.5\linewidth}
 		\begin{center}
-			\includegraphics[width = 0.98\columnwidth]{./results/figure/2D_resonance.jpg}
+			\includegraphics[width = 0.8\columnwidth]{./results/figure/2D_resonance.jpg}
 			\caption{二列配列イオンでの共鳴時の捕獲画像}
 			\label{fig:2D_resonance}
 		\end{center}
 	\end{minipage}
 \end{figure}
+
+このとき$R = 0.93$である．共鳴現象が観測された範囲は，\Fig{2D_off_resonance}中の上の列では335.5 kHz $\sim$ 337.0 kHz であり，下の列では313.1 kHz $\sim$ 316.3 kHzであった．これより，二列配列イオンにおいて下の列と上の列において，異なる周波数で共鳴現象が観測されることが分かった．

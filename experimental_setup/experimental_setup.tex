@@ -1,11 +1,11 @@
 \chapter{実験装置}
 \section{プレーナートラップ}
-本実験で使用する電極の写真を\Fig{Using_PlannerTrap}に示す．
+本実験で使用する5 mm角のプレーナートラップを\Fig{PlanarTrap}に示す．\Fig{PlanarTrap}に示すプレーナートラップを真空チャンバーに格納し，dc電圧とrf電圧を印加する．そしてレーザーの照射を行うことで$^{40}{\rm Ca}^+$1の捕獲を可能としている．
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width = 0.6\linewidth]{./experimental_setup/figure/Using_PlannerTrap.png}
+		\includegraphics[width = 0.4\linewidth]{./experimental_setup/figure/Using_PlannerTrap.png}
 		\caption{本実験で使用するプレーナートラップ}
-		\label{fig:Using_PlannerTrap}
+		\label{fig:PlanarTrap}
 	\end{center}
 \end{figure}
 
@@ -13,7 +13,7 @@
 \Fig{optical_system}にイオン捕獲のためのレーザーの光学系を示す．
 \begin{figure}[h]
 	\centering
-		\includegraphics[width = 0.7\linewidth]{./experimental_setup/figure/Optical_System.png}
+		\includegraphics[width = 0.5\linewidth]{./experimental_setup/figure/Optical_System.png}
 		\caption{プレーナートラップに照射するレーザーの光学系}
 		\label{fig:optical_system}
 \end{figure}
@@ -52,11 +52,11 @@
 \begin{figure}[h]
 	\begin{center}
 	\begin{minipage}{0.48\linewidth}
-		\includegraphics[width = 0.98\columnwidth]{./experimental_setup/figure/AllLaserXpos.jpg}
+		\includegraphics[width = 0.8\columnwidth]{./experimental_setup/figure/AllLaserXpos.jpg}
 	\end{minipage}
 	\begin{minipage}{0.48\linewidth}
 		\begin{center}
-		\includegraphics[width = 0.98\columnwidth]{./experimental_setup/figure/AllLaserYpos.jpg}
+		\includegraphics[width = 0.8\columnwidth]{./experimental_setup/figure/AllLaserYpos.jpg}
 		\end{center}
 	\end{minipage}
 	\caption{4種類のレーザーのx,y方向についてのビームプロファイル結果}
@@ -64,7 +64,7 @@
 	\end{center}
 \end{figure}
 
-そして，得られたビームプロファイルにガウシアンによるフィッティングを行った様子を\Fig{GaussianFitting}に示し，その結果を\Tb{GaussianFitting}にまとめている．\\
+そして，得られたビームプロファイルにガウシアンによるフィッティングを行った様子を\Fig{GaussianFitting}に示し，その結果を\Tb{GaussianFitting}にまとめている．
 
 \begin{table}[h]
 	\begin{center}
@@ -132,5 +132,16 @@
 	\label{fig:GaussianFitting}
 	\end{center}
 \end{figure}
+%
+\clearpage
+%
+\section{検出系}
+\Fig{Detect}ににイオンの捕獲を行うために必要な実験装置を示す．dc電圧の印加はLabViewを用いて行う．PC1で電圧値の設定を行いDAQへ信号を送る．信号を受け取ったDAQから指定されたdc電圧が出力されLPFを介してプレーナートラップへ印加される．rf電圧の印加には発振器を用いる．CH1から出力されるrf電圧はrf電極に印加され，CH2から出力されるrf電圧はcenter-rf電極に印加される．そして，プレーナートラップの電極表面に垂直な方向からイオンの蛍光をI. I. と汎用CCDカメラを用いて集光を行い，PC2で画像を表示させている．
 
-\section{電気系}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width = 0.6\linewidth]{./experimental_setup/figure/Detect.png}
+		\caption{イオンの捕獲を行うときの実験装置}
+		\label{fig:Detect}
+	\end{center}
+\end{figure}
