@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  9 FEB 2022 21:03
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.11.24)  15 FEB 2022 16:03
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -176,15 +176,180 @@ Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 \symboldmincho=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+) (c:/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/11/18 v4.0 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count274
+\FV@InFile=\read2
+\FV@TabBox=\box70
+\c@FancyVerbLine=\count275
+\FV@StepNumber=\count276
+\FV@OutFile=\write4
+)
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count277
+\Hy@pagecounter=\count278
+
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count279
+
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count280
+
+(c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen182
+
+(c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count281
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count282
+\c@Item=\count283
+\c@Hfootnote=\count284
+)
+Package hyperref Info: Driver: hdvipdfm.
+
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/hdvipdfm.def
+File: hdvipdfm.def 2021-06-07 v7.00m Hyperref driver for dvipdfm
+\pdfm@box=\box71
+\c@Hy@AnnotLevel=\count285
+\HyField@AnnotCount=\count286
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
+
+(c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip53
+)
+(c:/texlive/2021/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
+Package: pxjahyper 2021/06/06 v0.9c
+
+(c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+(c:/texlive/2021/texmf-dist/tex/platex/pxjahyper/pxjahyper-enc.sty
+Package: pxjahyper-enc 2021/06/06 v0.9c
+)
+
+LaTeX hooks Warning: Generic hook 'package/after/otf' is deprecated.
+(hooks)              Use hook 'package/otf/after' instead.
+
+(c:/texlive/2021/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
+Package: bxjatoucs 2019/10/20 v0.2
+))
+Package hyperref Info: Option `setpagesize' set `false' on input line 19.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 19.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+)
+(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
-\l__pdf_internal_box=\box70
-\g__pdf_backend_object_int=\count274
-\l__pdf_backend_content_box=\box71
-\l__pdf_backend_model_box=\box72
-\g__pdf_backend_annotation_int=\count275
-\g__pdf_backend_link_int=\count276
-\g__pdf_backend_link_sf_int=\count277
+\l__pdf_internal_box=\box72
+\g__pdf_backend_object_int=\count290
+\l__pdf_backend_content_box=\box73
+\l__pdf_backend_model_box=\box74
+\g__pdf_backend_annotation_int=\count291
+\g__pdf_backend_link_int=\count292
+\g__pdf_backend_link_sf_int=\count293
 )
 (./Bthetis.aux (./titlepage/titlepage.aux) (./intro/introduction.aux)
 (./theory/theory.aux) (./experimental_setup/experimental_setup.aux)
@@ -210,6 +375,10 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
@@ -246,9 +415,41 @@ LaTeX Font Info:    ... okay on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/10/11 v1.3b Standard LaTeX Color (DPC)
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 149.
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+Package hyperref Info: Link coloring ON on input line 8.
+
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count294
+)
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
+
+(./Bthetis.out) (./Bthetis.out)
+\@outlinefile=\write5
+\openout5 = `Bthetis.out'.
+
 \openout2 = `./titlepage/titlepage.aux'.
 
-(./titlepage/titlepage.tex
+ (./titlepage/titlepage.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -277,7 +478,8 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 
 
-] (./abst/abst.tex
+]
+(./abst/abst.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -287,15 +489,15 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 2.
+(Font)              scaled to size 6.72699pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 2.
+(Font)              scaled to size 4.805pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 2.
+(Font)              scaled to size 9.60999pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 2.
+(Font)              scaled to size 6.72699pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 2.
+(Font)              scaled to size 4.805pt on input line 4.
 )
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 18.
@@ -309,12 +511,11 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 18.
  [1
 
-] (./Bthetis.toc
-[2
+] (./Bthetis.toc [2
 
 ])
-\tf@toc=\write4
-\openout4 = `Bthetis.toc'.
+\tf@toc=\write6
+\openout6 = `Bthetis.toc'.
 
  [3] [4
 
@@ -402,50 +603,52 @@ File: ./theory/figure/DopplerEffect.png Graphic file (type bmp)
 File: ./theory/figure/cooling_spectrum.png Graphic file (type bmp)
 <./theory/figure/cooling_spectrum.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 211--225
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 210--224
 [][][]$[]$[] []$[]$[] 
  []
 
 [7]
 File: ./theory/figure/Ca+_energy.png Graphic file (type bmp)
 <./theory/figure/Ca+_energy.png>
+ [8]
 File: ./theory/figure/5/image_0.jpg Graphic file (type bmp)
 <./theory/figure/5/image_0.jpg>
 File: ./theory/figure/5/image_1.jpg Graphic file (type bmp)
 <./theory/figure/5/image_1.jpg>
 File: ./theory/figure/5/image_2.jpg Graphic file (type bmp)
 <./theory/figure/5/image_2.jpg>
- [8]
 File: ./theory/figure/5/hist_0.jpg Graphic file (type bmp)
 <./theory/figure/5/hist_0.jpg>
 File: ./theory/figure/5/hist_1.jpg Graphic file (type bmp)
 <./theory/figure/5/hist_1.jpg>
 File: ./theory/figure/5/hist_2.jpg Graphic file (type bmp)
 <./theory/figure/5/hist_2.jpg>
+ [9
+
+]
 File: ./theory/figure/5/norm_hist_0.jpg Graphic file (type bmp)
 <./theory/figure/5/norm_hist_0.jpg>
 File: ./theory/figure/5/norm_hist_1.jpg Graphic file (type bmp)
 <./theory/figure/5/norm_hist_1.jpg>
 File: ./theory/figure/5/norm_hist_2.jpg Graphic file (type bmp)
 <./theory/figure/5/norm_hist_2.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./theory/figure/5/thre_norm_hist_0.jpg Graphic file (type bmp)
 <./theory/figure/5/thre_norm_hist_0.jpg>
 File: ./theory/figure/5/thre_norm_hist_1.jpg Graphic file (type bmp)
 <./theory/figure/5/thre_norm_hist_1.jpg>
 File: ./theory/figure/5/thre_norm_hist_2.jpg Graphic file (type bmp)
 <./theory/figure/5/thre_norm_hist_2.jpg>
-[9]
 File: ./theory/figure/5/binary_0.jpg Graphic file (type bmp)
 <./theory/figure/5/binary_0.jpg>
 File: ./theory/figure/5/binary_1.jpg Graphic file (type bmp)
 <./theory/figure/5/binary_1.jpg>
 File: ./theory/figure/5/binary_2.jpg Graphic file (type bmp)
 <./theory/figure/5/binary_2.jpg>
- [10]) [11]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11]) [12]
 \openout2 = `./experimental_setup/experimental_setup.aux'.
 
  (./experimental_setup/experimental_setup.tex
@@ -455,7 +658,7 @@ File: ./experimental_setup/figure/Using_PlannerTrap.png Graphic file (type bmp)
 <./experimental_setup/figure/Using_PlannerTrap.png>
 File: ./experimental_setup/figure/Optical_System.png Graphic file (type bmp)
 <./experimental_setup/figure/Optical_System.png>
-[12
+[13
 
 
 
@@ -465,7 +668,7 @@ File: ./experimental_setup/figure/AllLaserXpos.jpg Graphic file (type bmp)
 <./experimental_setup/figure/AllLaserXpos.jpg>
 File: ./experimental_setup/figure/AllLaserYpos.jpg Graphic file (type bmp)
 <./experimental_setup/figure/AllLaserYpos.jpg>
- [13]
+ [14]
 File: ./experimental_setup/figure/375GaussianFittingXpos.jpg Graphic file (type
  bmp)
 <./experimental_setup/figure/375GaussianFittingXpos.jpg>
@@ -490,12 +693,12 @@ File: ./experimental_setup/figure/866GaussianFittingXpos.jpg Graphic file (type
 File: ./experimental_setup/figure/866GaussianFittingYpos.jpg Graphic file (type
  bmp)
 <./experimental_setup/figure/866GaussianFittingYpos.jpg>
- [14
+ [15
 
 ]
 File: ./experimental_setup/figure/Detect.png Graphic file (type bmp)
 <./experimental_setup/figure/Detect.png>
-) [15
+) [16
 
 ]
 \openout2 = `./simulation/simulation.aux'.
@@ -504,7 +707,7 @@ File: ./experimental_setup/figure/Detect.png Graphic file (type bmp)
 第4章
 File: ./simulation/figure/named_rect_electrode.png Graphic file (type bmp)
 <./simulation/figure/named_rect_electrode.png>
-[16
+[17
 
 
 
@@ -514,7 +717,7 @@ File: ./simulation/figure/dc_potential_example.png Graphic file (type bmp)
 <./simulation/figure/dc_potential_example.png>
 File: ./simulation/figure/PlannarTrap_3D_z=0.png Graphic file (type bmp)
 <./simulation/figure/PlannarTrap_3D_z=0.png>
- [17
+ [18
 
 ]
 File: ./simulation/figure/Single-well_Contour_xy@z=0.jpg Graphic file (type bmp
@@ -522,7 +725,7 @@ File: ./simulation/figure/Single-well_Contour_xy@z=0.jpg Graphic file (type bmp
 <./simulation/figure/Single-well_Contour_xy@z=0.jpg>
 File: ./simulation/figure/single-well_zx.jpg Graphic file (type bmp)
 <./simulation/figure/single-well_zx.jpg>
- [18
+ [19
 
 ]
 File: ./simulation/figure/rf_pseudopotential_R=075.jpg Graphic file (type bmp)
@@ -537,7 +740,7 @@ File: ./simulation/figure/rf_pseudopotential_R=095.jpg Graphic file (type bmp)
 <./simulation/figure/rf_pseudopotential_R=095.jpg>
 File: ./simulation/figure/rf_pseudopotential_R=100.jpg Graphic file (type bmp)
 <./simulation/figure/rf_pseudopotential_R=100.jpg>
- [19
+ [20
 
 ]
 File: ./simulation/figure/Single-well_Secular_pot_xy.jpg Graphic file (type bmp
@@ -546,7 +749,7 @@ File: ./simulation/figure/Single-well_Secular_pot_xy.jpg Graphic file (type bmp
 File: ./simulation/figure/Double-well_Secular_pot_xy.jpg Graphic file (type bmp
 )
 <./simulation/figure/Double-well_Secular_pot_xy.jpg>
- [20
+ [21
 
 ]
 File: ./simulation/figure/Double-well_z=0.png Graphic file (type bmp)
@@ -560,12 +763,12 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 189--203
 [][][]$[]$[] []$[]$[] 
  []
 
-[21
+[22
 
 ]
 File: ./simulation/figure/determine_SecFreq.jpg Graphic file (type bmp)
 <./simulation/figure/determine_SecFreq.jpg>
-) [22
+) [23
 
 ]
 \openout2 = `./methods/methods.aux'.
@@ -574,7 +777,7 @@ File: ./simulation/figure/determine_SecFreq.jpg Graphic file (type bmp)
 第5章
 File: ./methods/figure/in_laser.png Graphic file (type bmp)
 <./methods/figure/in_laser.png>
-[23
+[24
 
 
 
@@ -584,21 +787,14 @@ File: ./methods/figure/1D_wave.jpg Graphic file (type bmp)
 <./methods/figure/1D_wave.jpg>
 File: ./methods/figure/string.jpg Graphic file (type bmp)
 <./methods/figure/string.jpg>
-
-Overfull \hbox (9.71487pt too wide) in paragraph at lines 81--83
-[][]\OT1/cmr/m/n/10 Image In-ten-si-fier(HAMAMATSU, C9016-02) \JY1/mc/m/n/10 と
-汎用 \OT1/cmr/m/n/10 CCD \JY1/mc/m/n/10 カメラ \OT1/cmr/m/n/10 (THOR-LABS,DCC34
-20M)
- []
-
-[24
+ [25
 
 ]
 File: ./methods/figure/1_2D.jpg Graphic file (type bmp)
 <./methods/figure/1_2D.jpg>
 File: ./methods/figure/1_2D_wave.jpg Graphic file (type bmp)
 <./methods/figure/1_2D_wave.jpg>
- [25
+ [26
 
 ]
 File: ./methods/figure/2_2D.jpg Graphic file (type bmp)
@@ -613,25 +809,21 @@ File: ./methods/figure/4_2D.jpg Graphic file (type bmp)
 <./methods/figure/4_2D.jpg>
 File: ./methods/figure/4_2D_wave.jpg Graphic file (type bmp)
 <./methods/figure/4_2D_wave.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[26
+ [27
 
 ]
 File: ./methods/figure/5_2D.jpg Graphic file (type bmp)
 <./methods/figure/5_2D.jpg>
 File: ./methods/figure/5_2D_wave.jpg Graphic file (type bmp)
 <./methods/figure/5_2D_wave.jpg>
- [27]
+ [28]
 File: ./methods/figure/SecularFreqMeasSetup.png Graphic file (type bmp)
 <./methods/figure/SecularFreqMeasSetup.png>
 File: ./methods/figure/off_resonance.jpg Graphic file (type bmp)
 <./methods/figure/off_resonance.jpg>
 File: ./methods/figure/resonance.jpg Graphic file (type bmp)
 <./methods/figure/resonance.jpg>
- [28
+ [29
 
 ]
 File: ./methods/figure/PlotOf_off_resonance.png Graphic file (type bmp)
@@ -639,13 +831,13 @@ File: ./methods/figure/PlotOf_off_resonance.png Graphic file (type bmp)
 File: ./methods/figure/PlotOf_resonance.png Graphic file (type bmp)
 <./methods/figure/PlotOf_resonance.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 285--299
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 284--298
 [][][]$[]$[] []$[]$[] 
  []
 
 File: ./methods/figure/fitting_result.jpg Graphic file (type bmp)
 <./methods/figure/fitting_result.jpg>
-[29
+[30
 
 ]
 File: ./methods/figure/raw_image.png Graphic file (type bmp)
@@ -654,7 +846,7 @@ File: ./methods/figure/rect_image.png Graphic file (type bmp)
 <./methods/figure/rect_image.png>
 File: ./methods/figure/out_image.png Graphic file (type bmp)
 <./methods/figure/out_image.png>
-) [30
+) [31
 
 ]
 \openout2 = `./results/results.aux'.
@@ -663,7 +855,7 @@ File: ./methods/figure/out_image.png Graphic file (type bmp)
 第6章
 File: ./results/figure/displacement_End_Odd.png Graphic file (type bmp)
 <./results/figure/displacement_End_Odd.png>
-[31
+[32
 
 
 
@@ -673,21 +865,21 @@ File: ./results/figure/out_V13.jpg Graphic file (type bmp)
 <./results/figure/out_V13.jpg>
 File: ./results/figure/out_V24.jpg Graphic file (type bmp)
 <./results/figure/out_V24.jpg>
- [32
+ [33
 
 ]
 File: ./results/figure/end13-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/end13-SecFreq.jpg>
 File: ./results/figure/Vend13-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vend13-SecFreqZ.jpg>
- [33
+ [34
 
 ]
 File: ./results/figure/end24-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/end24-SecFreq.jpg>
 File: ./results/figure/Vend24-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vend24-SecFreqZ.jpg>
- [34
+ [35
 
 ]
 File: ./results/figure/Vendodd-SecFreqZ_Vendeven.jpg Graphic file (type bmp)
@@ -702,61 +894,61 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 98--112
 File: ./results/figure/Normalized_Vendodd_Vendeven-SecFreqZ_.jpg Graphic file (
 type bmp)
 <./results/figure/Normalized_Vendodd_Vendeven-SecFreqZ_.jpg>
-[35
+[36
 
 ]
 File: ./results/figure/mid-SecFreq.jpg Graphic file (type bmp)
 <./results/figure/mid-SecFreq.jpg>
 File: ./results/figure/Vmid-SecFreqZ.jpg Graphic file (type bmp)
 <./results/figure/Vmid-SecFreqZ.jpg>
- [36
+ [37
 
 ]
 File: ./results/figure/rf_SecFreq.jpg Graphic file (type bmp)
 <./results/figure/rf_SecFreq.jpg>
- [37
+ [38
 
 ]
 File: ./results/figure/DC1_N1.jpg Graphic file (type bmp)
 <./results/figure/DC1_N1.jpg>
 
 Underfull \hbox (badness 2245) in paragraph at lines 173--173
- [][]\OT1/cmr/m/n/9 Figure 6.14 dc \JY1/mc/m/n/9 電圧セ ット 
+ [][]\OT1/cmr/m/n/9 Figure 6.14 []dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N2.jpg Graphic file (type bmp)
 <./results/figure/DC1_N2.jpg>
 
 Underfull \hbox (badness 2245) in paragraph at lines 180--180
- [][]\OT1/cmr/m/n/9 Figure 6.15 dc \JY1/mc/m/n/9 電圧セ ット 
+ [][]\OT1/cmr/m/n/9 Figure 6.15 []dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N3.jpg Graphic file (type bmp)
 <./results/figure/DC1_N3.jpg>
 
 Underfull \hbox (badness 2245) in paragraph at lines 187--187
- [][]\OT1/cmr/m/n/9 Figure 6.16 dc \JY1/mc/m/n/9 電圧セ ット 
+ [][]\OT1/cmr/m/n/9 Figure 6.16 []dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N4.jpg Graphic file (type bmp)
 <./results/figure/DC1_N4.jpg>
 
 Underfull \hbox (badness 2245) in paragraph at lines 197--197
- [][]\OT1/cmr/m/n/9 Figure 6.17 dc \JY1/mc/m/n/9 電圧セ ット 
+ [][]\OT1/cmr/m/n/9 Figure 6.17 []dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N5.jpg Graphic file (type bmp)
 <./results/figure/DC1_N5.jpg>
 
 Underfull \hbox (badness 2245) in paragraph at lines 204--204
- [][]\OT1/cmr/m/n/9 Figure 6.18 dc \JY1/mc/m/n/9 電圧セ ット 
+ [][]\OT1/cmr/m/n/9 Figure 6.18 []dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_N6.jpg Graphic file (type bmp)
 <./results/figure/DC1_N6.jpg>
 
 Underfull \hbox (badness 2245) in paragraph at lines 211--211
- [][]\OT1/cmr/m/n/9 Figure 6.19 dc \JY1/mc/m/n/9 電圧セ ット 
+ [][]\OT1/cmr/m/n/9 Figure 6.19 []dc \JY1/mc/m/n/9 電圧セ ット 
  []
 
 File: ./results/figure/DC1_E.jpg Graphic file (type bmp)
@@ -774,9 +966,9 @@ File: ./results/figure/DC3_E.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38
+[39
 
-] [39]
+] [40]
 File: ./results/figure/example_phi.png Graphic file (type bmp)
 <./results/figure/example_phi.png>
 File: ./results/figure/example_E.png Graphic file (type bmp)
@@ -786,19 +978,19 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 252--266
 [][][]$[]$[] []$[]$[] 
  []
 
-[40
+[41
 
 ]
 File: ./results/figure/DC1_COMP.jpg Graphic file (type bmp)
 <./results/figure/DC1_COMP.jpg>
- [41
+ [42
 
 ]
 File: ./results/figure/DC2_COMP.jpg Graphic file (type bmp)
 <./results/figure/DC2_COMP.jpg>
 File: ./results/figure/DC3_COMP.jpg Graphic file (type bmp)
 <./results/figure/DC3_COMP.jpg>
- [42
+ [43
 
 ]
 File: ./results/figure/2D_087.jpg Graphic file (type bmp)
@@ -822,14 +1014,14 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 403--417
 [][][]$[]$[] []$[]$[] 
  []
 
-[43
+[44
 
 ]
 File: ./results/figure/2D_meas_R_d.jpg Graphic file (type bmp)
 <./results/figure/2D_meas_R_d.jpg>
 File: ./results/figure/2D_Calc_vs_Meas_R-d.jpg Graphic file (type bmp)
 <./results/figure/2D_Calc_vs_Meas_R-d.jpg>
- [44
+ [45
 
 ]
 File: ./results/figure/2D_off_resonance.jpg Graphic file (type bmp)
@@ -841,34 +1033,41 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 449--463
 [][][]$[]$[] []$[]$[] 
  []
 
-) [45
+) [46
 
 ]
 \openout2 = `./discuss/discuss.aux'.
 
  (./discuss/discuss.tex
 第7章
-) [46
+) [47
 
 
 
 
-] [47]
+] [48]
 \openout2 = `./conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
 第8章
-) [48
+[49
 
 
 
 
-]
+]) [50]
+付録A
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 46.
+[51
+
+
+
+
+] [52] [53] [54]
 \openout2 = `./Acknowledge/Acknowledge.aux'.
 
- (./Acknowledge/Acknowledge.tex) [49
-
-
+ (./Acknowledge/Acknowledge.tex) [55
 
 
 
@@ -884,24 +1083,27 @@ LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 2.
- [50
+
+[56
 
 
 
 
-]) [51]
-(./Bthetis.aux (./titlepage/titlepage.aux) (./intro/introduction.aux)
-(./theory/theory.aux) (./experimental_setup/experimental_setup.aux)
+]) [57] (./Bthetis.aux (./titlepage/titlepage.aux) (./intro/introduction.aux) (
+./theory/theory.aux) (./experimental_setup/experimental_setup.aux)
 (./simulation/simulation.aux) (./methods/methods.aux) (./results/results.aux)
 (./discuss/discuss.aux) (./conclusion/conclusion.aux)
-(./Acknowledge/Acknowledge.aux) (./bib/bib.aux)) ) 
+(./Acknowledge/Acknowledge.aux) (./bib/bib.aux))
+Package rerunfilecheck Info: File `Bthetis.out' has not changed.
+(rerunfilecheck)             Checksum: 41958D88CCA89CE2E586F7BFB3FE4C03;4092.
+ ) 
 Here is how much of TeX's memory you used:
- 3828 strings out of 478816
- 78038 string characters out of 5863666
- 374370 words of memory out of 5000000
- 21927 multiletter control sequences out of 15000+600000
- 429483 words of font info for 137 fonts, out of 8000000 for 9000
+ 12127 strings out of 478816
+ 205799 string characters out of 5863666
+ 512215 words of memory out of 5000000
+ 30092 multiletter control sequences out of 15000+600000
+ 460734 words of font info for 141 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 60i,14n,65p,1178b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,73p,1178b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Bthetis.dvi (57 pages, 170712 bytes).
+Output written on Bthetis.dvi (63 pages, 273016 bytes).

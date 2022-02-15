@@ -1,4 +1,4 @@
-\chapter{実験装置}
+\chapter{実験装置}\label{experimental_setup}
 \section{プレーナートラップ}
 本実験で使用する5 mm角のプレーナートラップを\Fig{PlanarTrap}に示す．\Fig{PlanarTrap}に示すプレーナートラップを真空チャンバーに格納し，dc電圧とrf電圧を印加する．そしてレーザーの照射を行うことで$^{40}{\rm Ca}^+$1の捕獲を可能としている．
 \begin{figure}[h]
@@ -14,7 +14,7 @@
 \begin{figure}[h]
 	\centering
 		\includegraphics[width = 0.5\linewidth]{./experimental_setup/figure/Optical_System.png}
-		\caption{プレーナートラップに照射するレーザーの光学系}
+		\caption{プレーナートラップに照射するレーザーの光学系(M:ミラー，PBS:偏向ビームスプリッター)}
 		\label{fig:optical_system}
 \end{figure}
 
@@ -24,8 +24,8 @@
 		\caption{$^{40}{\rm Ca}^+$を捕獲するときに使用するレーザーの波長}
 		\label{tb:use_laser}
 			\begin{tabular}{c|c} \hline \hline
-				基準周波数 & 632 nm \\ 
-				$^{40}{\rm Ca}$のイオン化 & 423 nm, 375 nm \\
+				波長系の校正 & 632 nm \\ 
+				$^{40}{\rm Ca}$の光イオン化 & 423 nm, 375 nm \\
 				$^{40}{\rm Ca}^+$の冷却 & 397 nm \\
 				$^{40}{\rm Ca}^+$のリポンプ　& 866 nm \\ \hline 
 			\end{tabular}
@@ -71,11 +71,11 @@
 		\caption{ビームプロファイラで得られた各ビームのプロファイルにガウシアンフィッティングをかけて得られたパラメータ}
 		\label{tab:GaussianFitting}
 		\begin{tabular}{c|cc|cc} \hline \hline
-			波長 (nm)&位置(x) ($\mu$m)&ビーム径(x) ($\mu$m) &位置(y) ($\mu$m)& ビーム径(y) ($\mu$m)\\ \hline
-			375&-2600.82$\pm$0.035&6.96$\pm$0.049&-1051.14$\pm$0.028&9.37$\pm$0.04 \\
-			397&-2606.08$\pm$0.026&24.21$\pm$0.037&-1056.17$\pm$0.016&18.45$\pm$0.023 \\
-			423&-2611.55$\pm$0.05&30.20$\pm$0.072&1042.25$\pm$0.03&39.85$\pm$0.054 \\
-			866&-2606.08$\pm$0.138&77.20$\pm$0.196&-1054.24$\pm$0.06&54.72$\pm$0.085 \\\hline
+			波長 (nm)&位置($x$) ($\mu$m)&ビーム径($r_x$) ($\mu$m) &位置($y$) ($\mu$m)& ビーム径($r_y$) ($\mu$m)\\ \hline
+			375&-2600.82$\pm$0.03&6.96$\pm$0.05&-1051.14$\pm$0.03&9.37$\pm$0.04 \\
+			397&-2606.08$\pm$0.02&24.21$\pm$0.04&-1056.17$\pm$0.02&18.45$\pm$0.02 \\
+			423&-2611.55$\pm$0.05&30.20$\pm$0.07&1042.25$\pm$0.03&39.85$\pm$0.05 \\
+			866&-2606.1$\pm$0.1&77.2$\pm$0.2&-1054.24$\pm$0.06&54.72$\pm$0.09 \\\hline
 		\end{tabular}
 	\end{center}
 \end{table}
@@ -136,12 +136,12 @@
 \clearpage
 %
 \section{検出系}
-\Fig{Detect}ににイオンの捕獲を行うために必要な実験装置を示す．dc電圧の印加はLabViewを用いて行う．PC1で電圧値の設定を行いDAQへ信号を送る．信号を受け取ったDAQから指定されたdc電圧が出力されLPFを介してプレーナートラップへ印加される．rf電圧の印加には発振器を用いる．CH1から出力されるrf電圧はrf電極に印加され，CH2から出力されるrf電圧はcenter-rf電極に印加される．そして，プレーナートラップの電極表面に垂直な方向からイオンの蛍光をI. I. と汎用CCDカメラを用いて集光を行い，PC2で画像を表示させている．
+\Fig{Detect}ににイオンの捕獲を行うために必要な実験装置を示す．dc電圧の印加はLabViewを用いて行う．PC1で電圧値の設定を行いDAQへ信号を送る．信号を受け取ったDAQから指定されたdc電圧が出力されLPFを介してプレーナートラップへ印加される．rf電圧の印加には発振器を用いる．CH1から出力されるrf電圧はrf電極に印加され，CH2から出力されるrf電圧はcenter-rf電極に印加される．そして，プレーナートラップの電極表面に垂直な方向からイオンの蛍光をImage Intensifier(I. I. )と汎用CCDカメラを用いて集光を行い，PC2で画像を表示させている．
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width = 0.6\linewidth]{./experimental_setup/figure/Detect.png}
-		\caption{イオンの捕獲を行うときの実験装置}
+		\caption{実験装置(LPF : Low Pass Filter，DAQ : Data AcQusition，I.I. : Image Intensifier，F.G. Function Generator)}
 		\label{fig:Detect}
 	\end{center}
 \end{figure}

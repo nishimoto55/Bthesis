@@ -35,11 +35,170 @@
 	\include{./discuss/discuss.tex}
 	%　-- 結論と展望 -- %
 	\include{./conclusion/conclusion.tex}
+%	
+\clearpage
+%
+%%% !---- 付録 ----! %%%
+\appendix
+\chapter{イオンの判別および位置特定に用いたソースコード}\label{source_code}
+複数個イオンからイオン捕獲位置における電場を求めるために，イオン捕獲画像からイオンの判別および位置の特定を行った．そのときに使用したソースコードを以下に示す．
+\begin{Verbatim}[numbers = left,frame=single]
+# モジュールのインポート
+import glob
+import numpy as np
+import cv2
+
+"""
+初期設定
+"""
+#定数の定義
+thre = 90  #二値化を行う閾値
+circle_thre = 1 #二値化されたイオンの蛍光の面積に対する閾値
+#画像処理を行う範囲の指定
+xmin,xmax = 650,950
+ymin,ymax = 450 ,625
+#Physics Const.
+e = 1.60217662 * 10 ** (-19) #素電荷量
+A = 2.30707757*10**(-28) # 40 * イオンの質量
+
+#カメラから取得されるテキストファイルの読み込み
+data = np.loadtxt(files[l])
+#テキストファイルをjpg形式に変換する
+cv2.imwrite('./origin_img.jpg',data)
+#jpg形式に変換された画像の読み込み
+image_origin = cv2.imread('./origin_img.jpg')
+
+###
+関数の定義
+###
+
+def hist_normalize(img, a, b): #ヒストグラムの正規化
+    c, d = img.min(), img.max()
+    
+    out = (b - a) / (d - c) * (img - c) + a
+    # if xin < c
+    out[img < c] = a
+    # if xin > d
+    out[img > d] = b
+    return np.clip(out, 0, 255).astype(np.uint8)
+
+def binary(img,th): #二値化
+    _img = img.copy()
+    _img = np.minimum(_img // th, 1)*255
+    return _img.astype(np.uint8)
+
+def ElectroField(ion_pos,k,img): #イオン位置における電場の計算
+    #配列の準備 
+    sort_pos = np.array([[0.]*3]*k)
+    sorted_pos = np.array([[0.]*3]*k)
+    displace_x = np.array([[0.]*k]*k)
+    displace_y = np.array([[0.]*k]*k)
+    displace_r = np.array([[0.]*k]*k)
+    
+    Each_coulomb_x = np.array([[0.]*k]*k)
+    Each_coulomb_y = np.array([[0.]*k]*k)
+    Coulomb_x = np.array([0.]*k)
+    Coulomb_y = np.array([0.]*k)
+    E_x = np.array([0.]*k)
+    E_y = np.array([0.]*k)
+    E = np.array([0.]*k)
+    
+    sort_pos = ion_pos[ion_pos[:,0].argsort(), :]
+    sorted_pos = sort_pos[-k:,0:2]
+
+    np.set_printoptions(precision=4, floatmode='maxprec')
+
+    #各イオンにおける他イオンとの距離(micro meter)と各軸におけるCoulomb力
+    for i in range(0,k):
+        for j in range(0,k):
+            if i != j :         
+                x = (sorted_pos[i][0] - sorted_pos[j][0])*5.3/12.9
+                y = (sorted_pos[i][1] - sorted_pos[j][1])*5.3/12.9
+                displace_x[i][j] = x
+                displace_y[i][j] = y
+                displace_r[i][j] = np.sqrt(x*x + y*y)
+                #Each Coulomb force [N]
+                Each_coulomb_x[i][j] = A*(displace_x[i][j])/(displace_r[i][j])
+                Each_coulomb_y[i][j] = A*(displace_y[i][j])/(displace_r[i][j])
+                Each_coulomb_x[i][j] = Each_coulomb_x[i][j]**3 * 10 **(12)
+                Each_coulomb_y[i][j] = Each_coulomb_y[i][j]**3 * 10 **(12)
+    
+    for i in range(0,k):
+        for j in range(0,k):
+            Coulomb_x[i] = Coulomb_x[i] + Each_coulomb_x[i][j]
+            Coulomb_y[i] = Coulomb_y[i] + Each_coulomb_y[i][j]
+    
+    E_x = -Coulomb_x/e
+    E_y = -Coulomb_y/e
+    E = np.sqrt(E_x**2 + E_y**2)
+    
+    for i in range(0,k):
+        cv2.arrowedLine(img,(int(sorted_pos[i][0]),int(sorted_pos[i][1])),
+        (int(sorted_pos[i][0]+E_x[i]*2),int(sorted_pos[i][1]+E_y[i]*2)),
+        (255,255,0),thickness = 3,tipLength = 0.3)
+    
+    dst_img = image_origin.copy()
+    dst_img[ymin:ymax,xmin:xmax] = img
+    
+    cv2.imwrite('./out_img.jpg',img)
+    cv2.imwrite('./dst_img.jpg',dst_img)
+
+def CountIons(img): #イオンの検出
+    count_lst, hir_lst = cv2.findContours(image_binary, 
+    														cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+    #各イオンのデータを格納する配列の準備  
+    ion_pos = np.array([[0.]*3]*10)
+    
+    k=0 #イオンの個数
+    
+    for i, cnt in enumerate(count_lst):
+            # 輪郭の面積を計算する。
+            area = cv2.contourArea(cnt)
+            #　抽出する範囲を指定
+            if area > circle_thre and area < 10000:
+                #最小外接円を計算する
+                (x,y),radius = cv2.minEnclosingCircle(cnt)
+                center = (int(x),int(y))
+                #輪郭の円を描画
+                cv2.circle(img,center,int(radius),(0,0,255),5)
+                #中心点に円を描画
+                cv2.circle(img,center,1,(0,255,0),1)
+                #配列にイオンのx,y座標とそれぞれの面積を代入していく
+                ion_pos[k][0] = int(x)
+                ion_pos[k][1] = int(y)
+                ion_pos[k][2] = area            
+                k=k+1
+
+    ElectroField(ion_pos,k,img)
+
+###    
+画像処理開始
+###
+#画像処理の範囲をイオン捕獲位置に絞る
+img1 = image_origin[ymin:ymax,xmin:xmax]
+
+#切り出す範囲の明示
+rect_img = image_origin.copy()
+cv2.rectangle(rect_img,(xmax,ymax),(xmin,ymin),(0,255,0),2)
+cv2.imwrite('rect_img.jpg',rect_img)
+
+#切り出した範囲に対してそれぞれ処理を行う
+#ヒストグラムの正規化，二値化
+image_hist_norm = hist_normalize(image_gray,a=0,b=255)
+image_binary = binary(image_hist_norm, thre)
+
+#イオンの個数を計上し，その座標情報からイオン位置における電場の導出を行う
+CountIons(img1)
+\end{Verbatim}
+
 %%% !---- 後付 ----! %%%
 \backmatter
 	%　-- 謝辞 -- %
 	\include{./Acknowledge/Acknowledge.tex}
+
 	%　-- 参考文献 -- %
 	\include{./bib/bib.tex}
+	
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

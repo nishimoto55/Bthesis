@@ -1,6 +1,6 @@
-\chapter{実験結果}
+\chapter{実験結果}\label{result}
 \section{一列配列イオン}
-\subsection{イオン捕獲位置のdc電圧依存性}
+\subsection{イオン捕獲位置のdc電圧依存性}\label{quantity_1}
 プレーナートラップのdc電極に印加するdc電圧を変化させたときのイオン捕獲位置の変位と，シミュレーション結果におけるイオン捕獲位置の変位を単一イオンを用いて比較し，シミュレーションの精度の確認を行った．\Tb{dc_string}に示したdc電圧セットにおいて，$V_{\rm End 1}, \ V_{\rm End3}$および$V_{\rm End 2}, \ V_{\rm End4}$を$0.54 \ {\rm V} \ \sim \ 2.84 \ {\rm V}$まで$0.1 {\rm V}$ずつ変化させたときのイオン捕獲位置の変位について実験を行った．\Fig{displacement_End13}に$V_{\rm End 1} \ = \ V_{\rm End3} = $0.54 V (a), 1.14 V (b), 1.44 V (c), 1.84 V (d), 2.34 V (e), 2.84 V (f)としたときのイオン捕獲画像を示す．
 
 \begin{figure}[h]
@@ -38,7 +38,7 @@ $V_{\rm End2}, \ V_{\rm End4}$の電圧値を変化させて同様の実験を�
 
 \clearpage
 
-\subsection{永年周波数のdc電圧依存性}
+\subsection{永年周波数のdc電圧依存性}\label{quantity_2}
 \ref{MeasSecFreq_Method}に示した手法を用いて，単一イオンを用いて異なるdc電圧セットにおける永年周波数の測定を行い，シミュレーション値との比較を行った．\Fig{end13_MeasSec}に\Tb{dc_string}に示すdc電圧セットを基準として$V_{\rm End1}, \ V_{\rm End3}$を変化させたときのイオンの振幅の周波数特性を示す．各条件に対し共鳴現象を引き起こすac信号の振幅は200$\ {\rm mV_{pp}}$とし，周波数掃引の刻み幅は50$\ {\rm Hz}$としている．周波数掃引の範囲は，まず手動で周波数を変化させ，共鳴現象が確認される周波数から$\pm1.5 \ {\rm kHz}$程度の範囲としイオンの振幅の周波数特性の取得を行った．
 
 \begin{figure}[h]
@@ -309,7 +309,7 @@ DC1，DC2，DC3のdc電圧セットにおける永年周波数の実験値とシ
 	\end{center}
 \end{table}
 
-\subsection{2通りの電場の傾きの算出方法の比較}
+\subsection{2通りの電場の傾きの算出方法の比較}\label{COMP_alpha}
 永年周波数から電場の傾きを算出する方法の精度を確認するため，\ref{alpha_pos}と\ref{alpha_SecFreq}の2つの手法の比較を行うことでクロスチェックを行った．DC1，DC2，DC3の3種類のdc電圧セットにおける電場の傾きの算出結果の比較を行った．まず，DC1における比較結果を\Fig{DC1_COMP}に示す．
 
 \begin{figure}[h]
@@ -349,7 +349,7 @@ DC1，DC2，DC3のdc電圧セットにおける永年周波数の実験値とシ
 \clearpage
 %
 \section{二列配列イオン}
-\subsection{イオン列間距離dと比率Rとの関係}
+\subsection{イオン列間距離dと比率Rとの関係}\label{quantity_3}
 二列配列イオンの捕獲に際して，rf電圧の振幅とcenter-rf電圧の振幅の比率$R$が大きい場合にイオン列間距離$d$が大きくなることがシミュレーションによって示されていたことから，実験を行い$R-d$特性の取得を行った．$R = 0.87 \sim 0.925$の範囲で$R$を変化させたときのイオン捕獲画像を\Fig{2D_087} $\sim$ \Fig{2D_0925}に示す．
 \begin{figure}[h]
 	\begin{minipage}{0.33\linewidth}
@@ -442,7 +442,7 @@ DC1，DC2，DC3のdc電圧セットにおける永年周波数の実験値とシ
 %
 \clearpage
 %
-\subsection{共鳴現象の確認}
+\subsection{共鳴現象の確認}\label{2D_res}
 一列配列イオンではF. G. 2から出力されるac信号の周波数を掃引することでイオンの振幅の周波数特性の取得を行ったが，二列配列イオンではイオンが列間で移動してしまうことから，イオンの振幅の周波数特性の取得を行うことができなかった．そのため，F. G. 2から出力されるac信号の周波数を手動で変化させ，共鳴現象の観測を試みた．二列配列イオンにおける非共鳴時と共鳴時の捕獲画像を\Fig{2D_off_resonance}と\Fig{2D_resonance}に示す．
 
 \begin{figure}[h]

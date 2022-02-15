@@ -1,13 +1,13 @@
-\chapter{実験方法}
+\chapter{実験方法}\label{method}
 \section{一列配列イオンの捕獲}
 \begin{enumerate}
 \item まず，$^{40}{\rm Ca}^+$の捕獲に用いるレーザーのセットアップを行う．
 \begin{enumerate}
-\item 波長計(HighFinesse, MC-15)を起動させ，基準周波数としてHe-Neレーザーを点ける．
-\item 375-nm(THORLABS, LDC202C)の電源を点け，電流を65 mAに設定する．
-\item 397-nm(TOPICA PHOTONICS, DCC110)のmoduleをonにし，CURRENT CTRをonにする．調節ねじを4に回し，電流を51 mA付近に設定する．
-\item 866-nm(Newport, $R_{\rm SET} = 11.682 \ {\rm k}\Omega , I_{0} = 145.16 \ {\rm mA}$)をENABLEに設定する．
-\item arroyo instruments, ComboPak, 685-0.1を使用して，423-nmのECDLに電流を60.04 mAを流し，温度を26.550 $^{\circ}$Cに設定する．
+\item 波長計を起動させ，波長計の校正のためにHe-Neレーザーを使用する．
+\item 375-nmの電源を点け，電流を65 mAに設定する．
+\item 397-nmのmoduleをonにし，CURRENT CTRをonにする．調節ねじを4に回し，電流を51 mA付近に設定する．
+\item 866-nm($R_{\rm SET} = 11.682 \ {\rm k}\Omega , I_{0} = 145.16 \ {\rm mA}$)をENABLEに設定する．
+\item 423-nmのECDLに電流を60.04 mAを流し，温度を26.550 $^{\circ}$Cに設定する．
 \item \Tb{use_laser_wavelength}に$^{40}{\rm Ca}^+$の捕獲を行ったときの波長を示す．なお，$^{40}{\rm Ca}^+$の捕獲に使用する波長はNISTのAtomic Spectra Database Lines Form\cite{NIST}を参照した．
 
 \begin{table}[h]
@@ -22,7 +22,7 @@
 		\end{tabular}
 \end{table}
 
-\item プレーナートラップ上のイオン捕獲位置でレーザーの焦点が合うように真空チャンバーの手前にレンズを設置しており，マイクロメーターを用いて上下左右に移動させることができる．一列配列イオンでは\Fig{lens_string}で示されるイオンが並ぶ方向に対して垂直に照射するレーザーのマイクロメータの目盛が鉛直方向に4，水平方向に39であり，斜めに照射するレーザーのマイクロメータの目盛は鉛直方向が10，水平方向は0である．
+\item プレーナートラップ上のイオン捕獲位置でレーザーの焦点が合うように真空チャンバーの手前にレンズを設置しており，マイクロメーターを用いて上下左右に移動させることができる．一列配列イオンでは\Fig{lens_string}で示されるイオンが並ぶ方向に対して垂直に照射するレーザーのマイクロメータの初期値として目盛を鉛直方向に4，水平方向に39とし，斜めに照射するレーザーのマイクロメータの初期目盛は鉛直方向が10，水平方向は0と設定する．
 
  \begin{figure}[h] 
  	\begin{center}
@@ -57,7 +57,7 @@
 		\end{tabular}
 \end{table}
 
-\item 発振器(KEYSIGHT,33500B Series)を用いてrf信号を発生させる．周波数は27.2 MHzで，rf電極に印加される信号には320 mV$_{\rm pp}$(CH1)，center-rf電極に印加される信号には1 mV$_{\rm pp}$(CH2)を設定し，増幅器(R\&K,A000110-4040-R)を利用して，増幅されたrf信号をプレーナートラップに印加する．rf電圧の波形を\Fig{1D_wave}に示す．
+\item 発振器を用いてrf信号を発生させる．周波数は27.2 MHzで，rf電極に印加される信号には320 mV$_{\rm pp}$(CH1)，center-rf電極に印加される信号には1 mV$_{\rm pp}$(CH2)を設定し，増幅器を利用して，増幅されたrf信号をプレーナートラップに印加する．rf電圧の波形を\Fig{1D_wave}に示す．
 
 \begin{figure}[h]
 	\begin{minipage}{0.48\linewidth}
@@ -76,10 +76,9 @@
 	\end{minipage}
 \end{figure}
 
-\item 磁場の印加(TPO7-5)を行い，カルシウム原子を射出させるために加熱を行うオーブンの電源を点ける．
+\item 磁場の印加を行い，カルシウム原子を射出させるためにオーブンによる加熱を行う．
 
-\item Image Intensifier(HAMAMATSU,
- C9016-02)と汎用CCDカメラ(THORLABS,DCC3420M)を組み合わせた検出系でイオンの蛍光を集光する．電源を点け，露光時間は10ms，Gainは4.0に設定する．
+\item Image Intensifierと汎用CCDカメラを組み合わせた検出系でイオンの蛍光を集光する．露光時間は10ms，Gainは4.0に設定する．
  
 \item オーブンをLabVIEWを介して制御し，適宜レーザーの波長を調節しながらイオンが捕獲されるまでオーブンによる加熱を続ける．
 
@@ -117,16 +116,16 @@
 	\end{minipage}
 \end{figure}
 
-このとき，$R=0.21$となっている．また，各レーザーの焦点を絞るためのレンズの位置を調節するマイクロメータの目盛を\Tb{1_2D}に示す．
+このとき，$R=0.21$となっている．また，マイクロメータの初期目盛を\Tb{1_2D}に示す．
 
 \begin{table}[h]
 	\begin{center}
-	\caption{手順1. におけるレンズの位置を調節するマイクロメータの目盛}
+	\caption{手順1. におけるマイクロメーターの初期目盛}
 	\label{tab:1_2D}
 	\begin{tabular}{c|cc} \hline \hline
 		&鉛直方向&水平方向 \\ \hline
-		垂直照射&39 & 4 \\ 
-		斜め照射&10 & 0 \\ \hline
+		垂直照射&39 &4 \\ 
+		斜め照射&10&0 \\ \hline
 	\end{tabular}
 	\end{center}
 \end{table}
@@ -152,16 +151,16 @@
 	\end{minipage}
 \end{figure}
 
-このとき，$R=0.56$である．マイクロメータの目盛を\Tb{2_2D}に示す．
+このとき，$R=0.56$である．手順1. $\rightarrow$ 手順2. で変化させたマイクロメータの変位を\Tb{2_2D}に示す．
 
 \begin{table}[h]
 \begin{center}
-	\caption{手順2. におけるレンズの位置を調節するマイクロメータの目盛}
+	\caption{手順1. $\rightarrow$ 手順1. で変化させたマイクロメータの変位}
 	\label{tab:2_2D}
 	\begin{tabular}{c|cc} \hline \hline
-		&鉛直方向&水平方向 \\ \hline
-		垂直照射&43 & 1 \\ 
-		斜め照射&15 & 3 \\ \hline
+		&鉛直方向への変位&水平方向の変位 \\ \hline
+		垂直照射&-4 $\mu$m & +3 $\mu$m \\ 
+		斜め照射&-5 $\mu$m & +3 $\mu$m \\ \hline
 	\end{tabular}
 \end{center}
 \end{table}
@@ -186,16 +185,16 @@
 	\end{minipage}
 \end{figure}
 
-このとき，$R=0.72$となっている．また，\Tb{3_2D}にマイクロメータの目盛を示す．
+このとき，$R=0.72$となっている．手順2. $\rightarrow$ 手順3. で変化させたマイクロメータの変位を\Tb{2_2D}に示す．．
 
 \begin{table}[h]
 \begin{center}
 	\caption{手順3. におけるレンズの位置を調節するマイクロメータの目盛}
 	\label{tab:3_2D}
 	\begin{tabular}{c|cc} \hline \hline
-		&鉛直方向&水平方向 \\ \hline
-		垂直照射&43 & 1 \\ 
-		斜め照射&18 & 1 \\ \hline
+		&鉛直方向の変位&水平方向の変位 \\ \hline
+		垂直照射&0 $\mu$m & 0 $\mu$m \\ 
+		斜め照射&-3 $\mu$m & -2 $\mu$m \\ \hline
 	\end{tabular}
 \end{center}
 \end{table}
@@ -351,8 +350,8 @@ Python3.6の環境下で，NumPyとOpenCVのモジュールを利用して，イ
 \Fig{out_image}から算出された電場は，捕獲されたイオンのz座標を左から数えて$z_{1}, \ z_{2}$としたとき，
 
 \begin{align*}
-	E_{z}(z_1) &= 5.603 \ {\rm V/m} \\
-	E_{z}(z_2) &= -5.603 \ {\rm V/m} 
+	E_{z}(z_1) &= 5.60 \ {\rm V/m} \\
+	E_{z}(z_2) &= -5.60 \ {\rm V/m} 
 \end{align*}
 
-と計算される．
+と計算される．使用したソースコードは\ref{source_code}に示している．
